@@ -1,5 +1,1 @@
-# "CODE: the hidden language of computer hardware and software
----
-Author: Charlse Petzold | Reading time: 2018.4.25-2018.4.30
-
-This is an excellent book guiding readers step by step toward the world of computer. In the sense of hardware, it introduced how to assemble a computer from the very beginning (a flash light, switch and some cables) to relays, Gates, flip-flops and finally Memory and CPU Chips (the mystery technological terms that lay in computer configuration lists)
+=*=3nC0d3dH3aDer==*iy43wqiBEqFhWq72FG3HfwsD6lO5kGV-3MEQ-sEdIvG4ILRJJSRsDTbFDDJsUbXtfasEmtfT7_FlA8KAQ0GktKpXlHgZgnmVlXQd2U16U4jzvSmgMfc__pSVKWxcAKjs2x7gYG9iiIgWCBE2q3BPIwA5K1TlOjBO7fZdF0sLjrxzUznHQh-eoJXYYE7_59B8AE8pG-J2t6g6e7qMKhsn-QD2UgIx4wtAErnLgg90fMawN18XHlLzCVsx7yR2GjYzfBL6FUmUAdrpKB7KhWeHN12cVvD6o7vXbqTBAzdl-SIcmlJroU5CMOm4z-CwxoSS4wbUbaOajuiVESpeKnLvGwRYDY61YnBnhOai5YVBEqBobn_IkuyWt0-4PH5GiYlNEw1_wTKiSwrqyucR-ZvBaGM8hN7_k0DrRLPSA1C15Asc0DH-0nP3eigvyLPFTC5IHi3SerK4JFvaPaJQiTb4hoS2f1w1fV1BRQo0T3UQsCNbG3cdCTqi1LiycgdTc5-QigFsDICm_6KxHfqm_dykTquFyeTFsaLFJAPqjeytr4HuRko4UCD4yJUl_kjhW-t1qk57bpxe-5gNiQuopIvhxnZLUfi41urSJibehT30rWaiNJWomKBcYvW6C27UngoCkeZXYuo0XB_ff15HYopOhwLOrw==
