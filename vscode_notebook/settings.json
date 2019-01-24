@@ -1,0 +1,17 @@
+{
+    "do_git_backup": true,
+    "git_push_interval_minutes": 1440,
+    "is_encrypted": true,
+    "last_git_push": 0,
+    "note_extensions": [
+        "txt",
+        "md"
+    ],
+    "private_folders": [
+        "Books"
+    ],
+    "public_folders": [
+        "*"
+    ],
+    "version": 2.1
+}
