@@ -1,14 +1,18 @@
 {
     "do_git_backup": false,
     "git_push_interval_minutes": 1440,
-    "is_encrypted": true,
+    "is_encrypted": false,
     "last_git_push": 0,
     "note_extensions": [
         "txt",
         "md"
     ],
     "private_folders": [
-        "Books"
+        "Books",
+        "Automated Data Collecton with R",
+        "Introducing Python",
+        "Probability theory_Jaynes",
+        "R Package_Hadley Wickham"
     ],
     "public_folders": [
         "*"
