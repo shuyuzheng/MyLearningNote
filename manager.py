@@ -1,4 +1,4 @@
-#!C:/Python34/python
+#!/Users/aviaryan/miniconda3/bin/python
 
 from vscode_notebook import vscode_notebook
 

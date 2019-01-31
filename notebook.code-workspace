@@ -22,7 +22,7 @@
 		"cSpell.words": [
 			"glioma"
 		],
-		"python.pythonPath": "C:\\Python34\\python.exe",
+		"python.pythonPath": "C:\\Program Files (x86)\\Python37-32\\python.exe",
 		// "search.useIgnoreFiles": false
 		// ^ can be removed in production
 	}

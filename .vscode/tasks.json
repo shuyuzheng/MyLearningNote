@@ -6,7 +6,7 @@
 		{
 			"label": "manager",
 			"type": "shell",
-			"command": "C:/Python34/python manager.py",
+			"command": "./manager.py",
 			// 👆🏻 change according to your need
 			"group": {
 				"kind": "build",
