@@ -21,10 +21,11 @@ Shuyu Zheng | 2019.02.01
 | `{variable}=>condition: {text}` | Decision icon (diamond) |
 | `{variable}=>inputoutput: {text}` | input or output icon (parallelogram)|
 | `{variable}=>subroutine: {text}` | subroutine icon (rectangle) |
+| `{variable}=>parallel: {text}` | parallel tasks icon (rectangle) |
 
 `{variable}`: The id (or name) for a module. It will be used in the _flow control_ commands.
 
-`{text}`: The content printed on the icon in final diagram.
+`{text}`: The content printed on the icon in final diagram. You can also add _hyperlinks_ to the module with `>http://www.your.links`.
 
 ### Flow controls
 
@@ -33,7 +34,7 @@ Shuyu Zheng | 2019.02.01
 | `{variable}->{variable}` | flow direction indicator (arrows linking each icons)|
 | `{variable}({direction})->{variable}` | `{direction}` controls the direction of the arrows will point in your diagram. Available values are: `left` and `right` |
 | `{condtion_variable}({alternative})->{variable}` | `{alternative}` indicate different decisions made uder the condition. Available values are: `yes` and `no` |
-
+| `{parallal_variable}(path{n})->{variable}` | `path{n}` indicates different paths the parallal task will go. You can define `path1`, `path2`,... |
 
 ### Tips
 
