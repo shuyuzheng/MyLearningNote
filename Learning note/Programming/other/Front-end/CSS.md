@@ -209,3 +209,7 @@ Range: `rgb(0, 0, 0)` to `rgb(255, 255, 255)`
 
 **normal flow**
 * Change the value of `position` to `relative` and followed with offset properties `left`, `right`, `top`, `bottom`. It will make the element's position 
+
+# Applied Accessibility (for screen readers)
+1. Set the element only visible for screen reader: `overflow: hidden;`
+    * `display: none;` and `visibility: hidden;` will _also hide_ content for screen reader.

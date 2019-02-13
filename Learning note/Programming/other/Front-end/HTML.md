@@ -46,7 +46,7 @@
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
     ```
-* **checkbsoxess**: a set of check box allows user to select multiple items at once. Its syntax is similar as `radio`.
+* **checkboxes**: a set of check box allows user to select multiple items at once. Its syntax is similar as `radio`.
     
     ```
     <label><input type="checkbox" name="personality"> Loving</label>
@@ -74,5 +74,62 @@ Declare the document type by `<!DOCTYPE ...>` and wrap your content in `<html>` 
 
 # Divide documents with <head> and <body>
 
-`<head>` could contain: `<title>`, `<link>`, `<like>`, `<meta>`, `<syle>`.
+`<head>` could contain: `<title>`, `<link>`, `<like>`, `<meta>`, `<style>`.
 `<body>` contains the main content of the document.
+
+# Applied Accessibility 
+
+## For screen readers
+
+1. `<img alt="text" >`: You should set an `alt` attribute to `img` tags, in case the image can not be load on some devices.
+
+If there already is an element shown on webpage which describing the content of image, you can leave `alt` empty as `""`.
+
+2. Using heading tags to manage your contents, so that some web reading application will recognize them.
+
+3. Wrapping your contents with:
+    * `header`: head of the web page. It wraps content that's repeated at the top on multiple pages. It typically contains introductory information or navigation links for its parent tag. 
+    * `nav`: It indicate navigation bar.
+    * `footer`: Content repeatedly appears at the bottom of multiple pages. It typically contains copyright or contact.
+    * `main`: all main contents on the web page.
+    * `article`: _independent, self-contained_ content.
+    * `section`: _grouping thematically related_ content.
+    * `div`: groups _without_ relationship.
+
+4. `figcaption`: wrap a visual representation along with its caption.
+
+```
+<figure>
+    <img src="something">
+    <br>
+    <figcaption>
+      texts here
+    </figcaption>
+</figure>
+```
+
+5. Important attributes for `label` tag:
+    * `for="id_of_other_element"`: It indicate that the label element is for certain "form control"
+    * wrap a set of choices of form together with `<fiedset>` and indicate the question with `<legend>`
+
+    ```
+    <form>
+        <fieldset>
+            <legend>text</legend>
+            <input id="one" type="radio" name="items" value="one">
+            <label for="one">Choice one</label>
+        </fieldset>
+    </form>
+    ```
+
+6. `<input type="date>` allows user to input date.
+7. `<time datetime="yyy-mm-dd">what will show on web</time>`: restrict the format of certain time. 
+8. Some screen reader only read links so wrap some meaningful text with `<a>` tag will be more friendly to these users.
+
+## For keyboard-only users
+1. `accesskey` attribute can provide "keyboard shortcuts" for accessing certain element with typing one key.
+2. Some elements, like links, form controls, automatically receive _keyboard focus_ when user tabs through a page. You can add this feature to other elements with `tabindex` attribute. It's value is a integer which could be:
+    * positive: define the sequence of focussing with tab. Like 1, 2, 3 means 1st, 2nd, 3rd to be access by tabing.
+    * negative: The element is _focusable_, but is not reachable by the keyboard.
+    * 0: The element can be reached by keyboard.
+    
