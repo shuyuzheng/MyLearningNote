@@ -211,5 +211,31 @@ Range: `rgb(0, 0, 0)` to `rgb(255, 255, 255)`
 * Change the value of `position` to `relative` and followed with offset properties `left`, `right`, `top`, `bottom`. It will make the element's position 
 
 # Applied Accessibility (for screen readers)
-1. Set the element only visible for screen reader: `overflow: hidden;`
-    * `display: none;` and `visibility: hidden;` will _also hide_ content for screen reader.
+
+Set the element only visible for screen reader: `overflow: hidden;`
+
+* `display: none;` and `visibility: hidden;` will _also hide_ content for screen reader.
+
+# Responsive Web Design Principles
+
+* `@media (max-width: 100px) { /* CSS Rules */ }`: tell webpage to use new CSS rules when screen width is less than 100 px. Size control can also be : `max-width`, `min-height`, `min-width`.
+
+* `img` element:
+    * automatically change size:
+
+    ```
+    img {
+        max-width: 100%; /* fit the width of image's container.
+        display: block; /* changes the image from an inline element.
+        height: auto; /* keeps the original aspect ratio of the image.
+    }
+    ```
+    * make image appear "retina" quality: change the `width` and `height` values as **half** of the original file's.
+
+    * use **viewport unit** to specify the size of elements. It gives the element the size which is **relative** to the size of the **parent** container element.
+        * `10vw`: 10% of viewport width
+        * `3vh`: 3% of viewport height
+        * `70vmin`: 70% of viewport's **smaller** dimension.
+        * `100vmax`: 100% of viewport's **bigger** dimension.
+    
+

@@ -10,7 +10,7 @@
 ## Anchors
 * external anchor: `<a href="url">word on the screen</a>`
     * `href` is necessary, Target
-    * `target="_blank"` this calse the linked document to open in a **new window tab**.
+    * `target="_blank"` this case the linked document to open in a **new window tab**.
 * internal anchor: 
     * internal anchor link: `<a href="#target-id">words on the screen<a>`
     * target element: `<name id="target-id">contents</name>`
