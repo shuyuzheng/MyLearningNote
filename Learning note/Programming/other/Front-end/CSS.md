@@ -238,4 +238,68 @@ Set the element only visible for screen reader: `overflow: hidden;`
         * `70vmin`: 70% of viewport's **smaller** dimension.
         * `100vmax`: 100% of viewport's **bigger** dimension.
     
+## Flexbox
 
+### Properties for container
+This is a set of property for `containers` to make its children's alignment more flexible.
+
+First add `display: flex;` before other _flex_ properties.
+
+* `flex-direction:`: default value is `row`, other available values are `column`, `column-reverse`, and `row-reverse`.
+
+* `justify-content:`: align items along the **main axis**(row or column defined by `flex-direction`). Available values are:
+    * `flex-start`: align items to the **start** of the container.
+    * `flex-end`: align items to the **end** of the container.
+    * `center`: align items to the **center** of the container.
+    * `space-between`: aline items to the **center** of the main axis and add spaces **between** them.
+    * `space-around`: similar to above one but there also have some spaces between **first** and **last** items.
+
+* `align-items:`: align items along the **cross axis**. Available vallues:
+    * `flex-start`: same as `justify-content`
+    * `flex-end`: same as `justify-content`
+    * `center`: same as `justify-content`
+    * `stretch`: **stretch** the items to fill the flex container.
+    * `baseline`: align items to their **baselines** (the baseline of texts inside elements).
+
+* `flex-wrap`: break items into multiple lines along the main axis. The break point depends on size of items and container. Available values:
+    * `nowrap`: without wrap, all things in one line.
+    * `wrap`: wrap items from left-to-right if they are in a row, or top-to-bottom if they are in a column.
+    * `wrap-reverse`: reversely wrap elements.
+
+### Property for items:
+
+* `flex-shrink`: it shrinks the size of elements when container becomes smaller. Its value should be numbers which define how much will this item will be shrinked if the size of container changes. For example 3 means this item will shrink 3 times as much as the other.
+* `flex-grow`: The opposite of `flex-shrink`
+* `flex-basis`: specify the **initial size** of the item. 
+    * units: `px`, `em`, `%` all work in `flex-basis`
+    * `auto`: sizes items based on the content.
+* `flex`: set `flex-grow`, `flex-shrink`, and `flex-basis` at once. Syntax: `flex: <grow> <shrink> <basis>`.
+
+* `order`: change the order of the items. Values are number, negative number is available.
+
+* `align-self`: align items it self without influning other items. Values are same as `align-items`.
+
+## CSS Grid
+
+It turns an HTML element into a **grid container** with rows and columns for you to place children elements.
+
+### properties for container
+
+First give then **container** property `display: grid;`
+
+* `grid-template-columns`: define columns' width and numbers. For example, `grid-template-columns: 50px 50px` means two columns each have width 50px.
+
+* `grid-template-rows`: same as above.
+
+* Special units: 
+    * `fr`: set the column or row to a **fraction** of the available space.
+    * `auto`: set the column or row to the width or height of its **content** automatically.
+    * `%`: adjust the column or row to the **percent** width of its **container**.
+
+* `grid-column-gap`/`grid-row-gap`: set the gap between columns/rows.
+
+* `grid-gap`: set gap for rows and columns at once. `grid-gap: <row-gap> <col-gap>;`
+
+### properties for item
+
+* `grid-column`: specify how many colums this item could comsume.
