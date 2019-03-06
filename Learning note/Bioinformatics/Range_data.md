@@ -1,6 +1,8 @@
-# Reference Genome
+# Range Data and Genome Features
 
-## Locate elements on genome
+## Coordinate System: Reference Genome
+
+### Locate elements on genome
 
 The Reference genome data used is a _coordinate system_ for describing the _location_ of everything in a genome.
 
@@ -14,7 +16,7 @@ Genomic Ranges:
     * 0-based: start from 0, like the index system in Python
 3. **Strand**: It indicate on which strand of DNA the elements are located. They are symbolized as `+`(positive strand) and `-`(negative strand).
 
-## Reference genome version
+### Reference genome version
 
 Different versions of reference genome provide different _coordinate system_ for locating elements. There are some tools for transform among different versions:
 
@@ -22,3 +24,10 @@ Different versions of reference genome provide different _coordinate system_ for
 2. NCBI Gnome Remapping Service
 3. Liftover (UCSC Genome Browser's site)
 
+## R packages for range data
+
+`GenomicRange` `IRanges`
+
+## R package for Annotation Data
+
+`GenomicFeature` `rtrachlayer`
