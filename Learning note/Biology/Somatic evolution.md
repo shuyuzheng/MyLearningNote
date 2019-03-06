@@ -8,15 +8,15 @@ output:
 
 # 1. Natural selection in cancer
 
-Cells in pre-malignant and malignant neoplasms(tumors) evolve by natural selection. 
+Cells in pre-malignant and malignant neoplasms(tumors) evolve by natural selection.
 
-## 1.1 Necessary and sufficient conditions for natural selection:
+## 1.1 Necessary and sufficient conditions for natural selection
 
    1. There must be **variation in the population**.
    2. The variable traits must be **heritable**.
    3. That variation must **affect survival or reproduction** (fitness).
 
-* **clone**: a population of cancer cells with the similar mutations. 
+* **clone**: a population of cancer cells with the similar mutations.
 * **clonal expansion** a clone of cells expands in the neoplasm. It is the signature of natural selection in cancer.
 
 ## 1.2 Contributing factors
