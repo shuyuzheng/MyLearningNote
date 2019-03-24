@@ -1,4 +1,5 @@
 ; Script Function:
+
 ;       Disables trackpad for 500ms any time a key is pressed (prevents accidental mouse clicks)
 ;
 
