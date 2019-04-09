@@ -9,7 +9,7 @@
 
 * `undefined`: a variable **without** value.
 * `null`
-* `boolean`
+* `boolean`: `true` or `false`.
 * `string`: 
   * define by `"` or `'`
   * immutable: Your can not change the substring with `string[2] = "n"`
@@ -85,8 +85,69 @@ It like the _evironment_ in R.
 
 You can define **global variable** inside **function** with `<variableName> = <value>` without `var`.
 
+When local variable and global variable have the same name, then the _local variable_ goes first.
+
+* Deliver values to global scope
+
+  1. JavaScript defaultly return the result of last line of command inside the function.
+  2. `return <results/expression>;`: specify the results returned to global scope.
+  3. When a function reach `return` statement, it will break and return the value.
+
 
 ## Build-in functions
 
-`console.log`: print somethin in dev console.
+* `console.log(<variable>)`: print somethin in dev console.
+* `typeof <variable>`: check the data type of a variable.
+
+## Work flow control
+
+### If syntax
+
+```{JavaScript}
+for (<con1>) {
+    <operation for con1 is true>;
+} else if (con2) {
+    <operation for con1 is false but con2 is true>;
+} else {
+    <operation for con1 and con2 are both false>;
+}
+```
+
+When compare two **different data type** by symbol `==` or `!=`, JavaScript will **coercion** the data type to make them comparable anyway. For example `1 == '1'` will return `true` and `1 != '1'` returns `false`.
+
+**Strict equality symbol** and **Strict inequality symbol**(`===` and `!==`): they will consider the data type when comparing two variables. For example, `1 === '1'` will return `false` and `1 !== '1'` will return `true`.
+
+Other operators for comparson:  
+* `<`, `>`, `<=`, `>=`
+* `&&`: and
+* `||`: or
+
+### switch syntax
+
+```{JavaScript}
+switch(<input>) {
+    case <value1>:
+        <statement1>;
+        break;
+    case <value2>:
+        <statement2>;
+        break;
+    default:
+        <defaultStatement>;
+        break;
+}
+```
+
+Multi cases share same statement
+
+```{JavaScript}
+switch(<input>) {
+    case <value1>:
+    case <value2>:
+    case <value3>:
+        <statement>;
+        break;
+}
+```
+
 
