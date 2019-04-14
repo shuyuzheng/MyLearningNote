@@ -98,7 +98,10 @@ When local variable and global variable have the same name, then the _local vari
 
 * `console.log(<variable>)`: print somethin in dev console.
 * `typeof <variable>`: check the data type of a variable.
-
+* `Math.random()`: generate a decimal number which larger or equal to 0 and less than 1.
+* `Math.floor(<n>)`: get the greatest lower integer of `n`.
+  * generate a whole number in range of 0 to 19: `Math.floor(Math.random() *
+      20)
 ## Work flow control
 
 ### If syntax
@@ -141,13 +144,127 @@ switch(<input>) {
 Multi cases share same statement
 
 ```{JavaScript}
-switch(<input>) {
-    case <value1>:
-    case <value2>:
-    case <value3>:
-        <statement>;
-        break;
 }
 ```
 
+### while loop
 
+```
+while (<condition>) {
+    <operation>;
+}
+```
+
+### do while loop
+
+```
+do {
+    <operation>;
+} while (<condition>);
+```
+
+### for loop
+
+```
+for (<initialization>; <condition>; <final-expression>) {
+    <operation>;
+}
+```
+
+## Object
+
+* Objects in Javascript store values with `properties`, each property holds one value.
+* You can define a `property` with or without quotes
+* Properties could be strings, numbers, booleans, arrays, functions, and objects.
+* Property names can only be string.
+
+### Define
+
+```JavaScript
+var <objectName> = {
+    <property 1>: <value 1>,
+    <property 2>: <value 2>,
+};
+```
+
+### Access
+
+1. Using `.` to access
+
+```JavaScript
+<objectName>.<proper>;
+```
+2. Using `[]` to access
+
+```JavaScript
+<objectName>["proper"];
+```
+3. Assign the property name to a variable and then use this variable to access (no quotes around variable name)
+
+```JavaScript
+var variable = "proper";
+<objectName>[variable];
+```
+
+4. Access nested objects
+
+Just stack `.` or `[]` together to indicate the path to the items you want.
+
+```JavaScript
+<object>.<level1>.<level2>[<level3>].<final>
+```
+
+5. Access nested array and objects
+
+Combine the accessing syntax for array and object together.
+
+```JavaScript
+<array1>[<n>].<propForArray>[<n>]
+```
+
+### Modify
+
+1. Change existing property: Access the elements need to be modified and then re-assign a new value.
+
+```JavaScript
+<object>.<prop> = <newValue>;
+<object>[<prop>] = <newValue>;
+```
+
+2. Add new property:
+
+```JavaScript
+<object>.<newProp> = <newValue>;
+<object>["<newProp>"] = <newValue>;
+```
+
+3. Delete:
+
+```JavaScript
+delete <object>.<Prop>
+```
+
+### Check elements
+
+Check whether a property has been included. It will return `true` or `false`
+
+```JavaScript
+<object>.hasOwnProperty(<prop>)
+```
+
+### Complex object
+
+JavaScript Object Notation (JSON): a complex array which can nest objects,
+
+```JavaScript
+var <object> = [
+  {
+    <key 1>: <value 1>,
+    <key 2>: <value 2>
+  },
+  {
+    <key 3>: <value 3>,
+    <key 4>: <value 4>
+  }
+]
+```
