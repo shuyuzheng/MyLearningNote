@@ -17,7 +17,7 @@
     * `<style>` tags in HTML document.
     * Separated CSS document.
 
-3. The basic idea behind CSS: 
+3. The basic idea behind CSS:
     * using a **selector** to target the elements in **DOM(Document Object Model)**
     * applying a variety of attributes to the elements.
 
@@ -76,6 +76,7 @@ The style setting for class can be **reused** to the elements that was sort to t
 4. `line-height`: the height of each line.
 
 # element properties
+
 1. `width`: setting images' width by pixels, like `500px`
 
 2. `background-color`: specify the color of the back ground.
@@ -85,7 +86,7 @@ The style setting for class can be **reused** to the elements that was sort to t
 
     * In `<style>` tag, at the top of the document, enclose the `properties: value;` pairs with `{}`:
 
-    ```
+    ```html
     <style>
         h2 {color: red;}
     </style>
@@ -174,13 +175,16 @@ Range: `rgb(0, 0, 0)` to `rgb(255, 255, 255)`
 * Fallback of the variable: `element: var(--variable-name) property;`. If the value of the variable does not work, `property` will be used to the element. This can be used for _debug_.
 
 # Align the text
-`text-align:` 
+
+`text-align:`
+
 * `justify;` all lines of text **except last line** to meet right and left side.
 * `center;` centers the text
 * `right;` right-aligns the text
 * `left;` left-aligns the text (**default**)
 
 # Special tags for text style 
+
 * `<strong>`: bold text style
 * `<u>`: underline
 * `<em>`: italic
