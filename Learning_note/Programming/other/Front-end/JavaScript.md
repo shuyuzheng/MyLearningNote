@@ -15,6 +15,7 @@
   * immutable: Your can not change the substring with `string[2] = "n"`
   * `<string>.length`: the length of string.
   * `[]`: use _offset_ to extract element from string, like python.
+  * `parseInt(<string>, <ratix>)`: parse a string into a integer, like `parseInt("007")` returns `7`. `<ratix>` notice the base for parsing, like `parseInt(11, 2)` returns `3`.
   
 * `symbol`
 * `number`
@@ -102,6 +103,13 @@ When local variable and global variable have the same name, then the _local vari
 * `Math.floor(<n>)`: get the greatest lower integer of `n`.
   * generate a whole number in range of 0 to 19: `Math.floor(Math.random() *
       20)
+* Conditional operator: 
+  * syntax: 
+    * `<condition> ? <statement-if-true> : <statement-if-false>;`
+    * `<condition-if> ? <statement-if-true> : <condition-else-if> ?
+      <statement-else-if-true> : <statement-else-if-false>;`
+  * meaning: It is an on line 'if else' operation. 
+
 ## Work flow control
 
 ### If syntax
