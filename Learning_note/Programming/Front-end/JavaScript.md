@@ -15,6 +15,7 @@
   * immutable: Your can not change the substring with `string[2] = "n"`
   * `<string>.length`: the length of string.
   * `[]`: use _offset_ to extract element from string, like python.
+  * `parseInt(<string>, <ratix>)`: parse a string into a integer, like `parseInt("007")` returns `7`. `<ratix>` notice the base for parsing, like `parseInt(11, 2)` returns `3`.
   
 * `symbol`
 * `number`
@@ -52,7 +53,7 @@
 * Add, subtract, multiply or divide random number from a variable: `+=`, `-=`, `*=` or `/=` (e.g. `i += 5` equal to `i = i + 5`)
 * Remainder: `%`
 * Special characters:
-    * `\\`: backslash
+    * "\\": backslash
     * `\n`: newline
     * `\r`: carriage return
     * `\t`: tab
@@ -62,6 +63,7 @@
 ## Functions
 
 ### Define and call
+
 * Define:
 
 ```JavaScript
@@ -100,8 +102,15 @@ When local variable and global variable have the same name, then the _local vari
 * `typeof <variable>`: check the data type of a variable.
 * `Math.random()`: generate a decimal number which larger or equal to 0 and less than 1.
 * `Math.floor(<n>)`: get the greatest lower integer of `n`.
-  * generate a whole number in range of 0 to 19: `Math.floor(Math.random() *
-      20)
+  * generate a whole number in range of 0 to 19: `Math.floor(Math.random() *20)`
+
+* Conditional operator: 
+  * syntax: 
+    * `<condition> ? <statement-if-true> : <statement-if-false>;`
+    * `<condition-if> ? <statement-if-true> : <condition-else-if> ?
+      <statement-else-if-true> : <statement-else-if-false>;`
+  * meaning: It is an on line 'if else' operation. 
+
 ## Work flow control
 
 ### If syntax
@@ -144,6 +153,10 @@ switch(<input>) {
 Multi cases share same statement
 
 ```{JavaScript}
+switch(<input>) {
+    case <value1>, <value2>:
+        <statement>;
+        break;
 }
 ```
 
