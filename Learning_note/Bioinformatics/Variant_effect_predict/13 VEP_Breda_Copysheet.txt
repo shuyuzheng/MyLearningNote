@@ -1,0 +1,19 @@
+VEP demo:
+
+9 128328461 128328461 A/- + var1
+9 128322349 128322349 C/A + var2
+9 128323079 128323079 C/G + var3
+9 128322917 128322917 G/A + var4
+
+VEP Exercise 1:
+
+7 117530985 117530985 G/A + var1
+7 117531038 117531038 T/C + var2
+7 117531068 117531068 T/C + var3
+
+VEP Exercise 2:
+
+13 32307062 sv1 . <DEL> . . SVTYPE=DEL;END=32332466
+
+VEP Exercise 3:
+http://ftp.ebi.ac.uk/pub/databases/ensembl/training/2019/VEP_Breda/VEP_Breda_VCF.vcf
