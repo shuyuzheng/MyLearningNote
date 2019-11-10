@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./payroll.js"></script>
+  </head>
+  <body>
+    <button onclick="getData()">Load</button>
+    <h1 id="response"></h1>
+    <script>
+      var xml = null;
+
+      if(window.XMLHttpRequest)
+      {
+        xml = new XMLHttpRequest();
+      }
+      else
+      {
+        xml = new ActiveXObject('Microsoft.XMLHTTP');
+      }
+        // 1. connection established, 2. transfer initiated; 3. In progress; 4. Complete 
+      xml.onreadystatechange = function();
+      {
+        if(xml.readystate === 4)
+        {
+          var processedString = '<ul>';
+          var resp = JSON.parse(html.responseText);
+          resp.forEach(function(name){
+            processedString += '<li>' + name.name +"</li>";
+          }
+            processedString += '</ul>';
+          document.getElementById('response').innerHTML = xml.responseText;
+        }
+      }
+
+      function getData()
+      {
+        xml.open('GET', 'sample.txt'); //, true, "username", "password");
+        xml.send(null);
+      }
+      
+    </script>
+  </body>
+</html>
