@@ -1,0 +1,1102 @@
+id,name,unit,data_type,description,createdAt,updatedAt,code,coverage,timespan,datasetId,sourceId,shortUnit,columnOrder,originalMetadata
+72,"Total population (Gapminder, HYDE & UN)",,numeric,"Population by country, available from 1800 to 2019 based on Gapminder data, HYDE, and UN Population Division (2019) estimates.",7/23/15 3:52,9/13/19 10:46,\N,,,70,301,\N,0,\N
+192,Freedom of the Press Status,,order,,1/23/16 23:05,5/13/19 9:35,\N,Global by country,1979-2014,152,85,\N,0,\N
+349,Life satisfaction in Cantril Ladder (World Happiness Report 2019),,numeric,"Average of survey responses to the 'Cantril Ladder' question in the Gallup World Poll. The survey question asks respondents to think of a ladder, with the best possible life for them being a 10, and the worst possible life being a 0. ",1/1/16 0:00,5/8/19 11:27,\N,Global by country,2005-2016,235,201,\N,0,\N
+358,"Human Rights Score (Schnakenberg & Fariss, 2014; Fariss, 2019)",,numeric,"The Human Rights Score provides a measure of the protection of the physical integrity of citizens. It aims to measure how a government protects its citizens' physical integrity, by taking into account torture, government killing, political imprisonment, extrajudicial executions, mass killings and disappearances. Its values range from  −3.8 to around 5.4 (the higher the better). It is constructed from an econometric model with data from nine sources.",1/1/16 0:00,6/11/19 0:42,\N,"Globally, by country and world average",1949 - 2014,241,208,\N,0,\N
+1316,Human Development Index (UNDP),(0-1; higher values are better),numeric,"The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and have a decent standard of living. \
+\
+Measured by:\
+\
+– Life expectancy at birth\
+\
+– Mean years of schooling & Expected years of schooling\
+\
+– GNI per capita (in PPP adjusted international-$)\
+\
+The HDI is the geometric mean of normalized indices for each of the three dimensions.",1/1/16 0:00,5/8/19 16:01,\N,Global by country,,275,283,\N,0,\N
+1405,Corruption Perception Index - Transparency International (2018),,numeric,"Annual ranking of countries by their perceived levels of corruption, as determined by expert assessments and opinion surveys. Scale is from 100 (very clean) to 0 (highly corrupt). ",10/11/16 2:19,5/7/19 14:58,\N,,2012-2015,305,408,\N,0,\N
+1769,Cumulative CO2 emissions (OWID based on GCP & CDIAC (2018)),million tonnes,numeric,"Cumulative carbon dioxide (CO₂) emissions is the total quantity of CO₂ emissions emitted from 1751 until a given year, measured in tonnes. This is based on territorial emissions, which do not account for emissions embedded in traded goods. ",4/25/17 21:03,7/19/19 9:36,\N,global by country,,445,567,\N,0,\N
+2098,Land area (sq. km),sq. km,numeric,"Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.",7/6/17 8:22,12/11/18 20:12,AG.LND.TOTL.K2,,1960-2017,554,760,sq. km,0,\N
+2118,Population density (people per sq. km of land area),people per sq. km of land area,numeric,"Population density is midyear population divided by land area in square kilometers. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship--except for refugees not permanently settled in the country of asylum, who are generally considered part of the population of their country of origin. Land area is a country's total area, excluding area under inland water bodies, national claims to continental shelf, and exclusive economic zones. In most cases the definition of inland water bodies includes major rivers and lakes.",7/6/17 8:22,12/11/18 20:12,EN.POP.DNST,,1960-2017,554,780,people,0,\N
+2130,Rural population,,numeric,Rural population refers to people living in rural areas as defined by national statistical offices. It is calculated as the difference between total population and urban population. Aggregation of urban and rural population may not add up to total population because of different country coverages.,7/6/17 8:22,12/11/18 20:12,SP.RUR.TOTL,,1960-2017,554,792,\N,0,\N
+2137,Terrestrial protected areas (% of total land area),% of total land area,numeric,"Terrestrial protected areas are totally or partially protected areas of at least 1,000 hectares that are designated by national authorities as scientific reserves with limited public access, national parks, natural monuments, nature reserves or wildlife sanctuaries, protected landscapes, and areas managed mainly for sustainable use. Marine areas, unclassified areas, littoral (intertidal) areas, and sites protected under local or provincial law are excluded.",7/6/17 8:22,12/11/18 20:12,ER.LND.PTLD.ZS,,1960-2017,554,799,%,0,\N
+2145,Urban population,,numeric,Urban population refers to people living in urban areas as defined by national statistical offices. It is calculated using World Bank population estimates and urban ratios from the United Nations World Urbanization Prospects. Aggregation of urban and rural population may not add up to total population because of different country coverages.,7/6/17 8:22,12/11/18 20:12,SP.URB.TOTL,,1960-2017,554,807,\N,0,\N
+2146,Urban population (% of total),% of total,numeric,Urban population refers to people living in urban areas as defined by national statistical offices. The data are collected and smoothed by United Nations Population Division.,7/6/17 8:22,12/11/18 20:12,SP.URB.TOTL.IN.ZS,,1960-2017,554,808,%,0,\N
+2697,Secure Internet servers (per 1 million people),per 1 million people,numeric,"The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey.",7/6/17 8:32,12/11/18 20:12,IT.NET.SECR.P6,,1960-2017,556,1359,\N,0,\N
+2945,Time required to start a business (days),days,numeric,"Time required to start a business is the number of calendar days needed to complete the procedures to legally operate a business. If a procedure can be speeded up at additional cost, the fastest procedure, independent of cost, is chosen.",7/6/17 8:45,12/11/18 20:12,IC.REG.DURS,,1960-2017,559,1607,days,0,\N
+3020,"Employment to population ratio, 15+, female (%) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment to population ratio is the proportion of a country's population that is employed. Employment is defined as persons of working age who, during a short reference period, were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period (i.e. who worked in a job for at least one hour) or not at work due to temporary absence from a job, or to working-time arrangements. Ages 15 and older are generally considered the working-age population.",7/6/17 8:50,12/11/18 20:12,SL.EMP.TOTL.SP.FE.ZS,,1960-2017,560,1682,\N,0,\N
+3035,"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)",modeled ILO estimate,numeric,Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period.,7/6/17 8:50,12/11/18 20:12,SL.TLF.CACT.FE.ZS,,1960-2017,560,1697,\N,0,\N
+3041,"Labor force, female (% of total labor force)",% of total labor force,numeric,Female labor force as a percentage of the total show the extent to which women are active in the labor force. Labor force comprises people ages 15 and older who supply labor for the production of goods and services during a specified period.,7/6/17 8:50,12/11/18 20:12,SL.TLF.TOTL.FE.ZS,,1960-2017,560,1703,%,0,\N
+3043,Net migration,,numeric,"Net migration is the net total of migrants during the period, that is, the total number of immigrants less the annual number of emigrants, including both citizens and noncitizens. Data are five-year estimates.",7/6/17 8:50,12/11/18 20:12,SM.POP.NETM,,1960-2017,560,1705,\N,0,\N
+3044,Ratio of female to male labor force participation rate (%) (modeled ILO estimate),modeled ILO estimate,numeric,Labor force participation rate is the proportion of the population ages 15 and older that is economically active: all people who supply labor for the production of goods and services during a specified period. Ratio of female to male labor force participation rate is calculated by dividing female labor force participation rate by male labor force participation rate and multiplying by 100.,7/6/17 8:50,12/11/18 20:12,SL.TLF.CACT.FM.ZS,,1960-2017,560,1706,\N,0,\N
+3049,"Unemployment, female (% of female labor force) (modeled ILO estimate)",modeled ILO estimate,numeric,Unemployment refers to the share of the labor force that is without work but available for and seeking employment.,7/6/17 8:50,12/11/18 20:12,SL.UEM.TOTL.FE.ZS,,1960-2017,560,1711,\N,0,\N
+3051,"Unemployment, male (% of male labor force) (modeled ILO estimate)",modeled ILO estimate,numeric,Unemployment refers to the share of the labor force that is without work but available for and seeking employment.,7/6/17 8:50,12/11/18 20:12,SL.UEM.TOTL.MA.ZS,,1960-2017,560,1713,\N,0,\N
+3053,"Unemployment, total (% of total labor force) (modeled ILO estimate)",modeled ILO estimate,numeric,Unemployment refers to the share of the labor force that is without work but available for and seeking employment.,7/6/17 8:50,12/11/18 20:12,SL.UEM.TOTL.ZS,,1960-2017,560,1715,\N,0,\N
+3064,Employment in agriculture (% of total employment) (modeled ILO estimate),modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.AGR.EMPL.ZS,,1960-2017,560,1726,\N,0,\N
+3065,"Employment in agriculture, female (% of female employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.AGR.EMPL.FE.ZS,,1960-2017,560,1727,\N,0,\N
+3066,"Employment in agriculture, male (% of male employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The agriculture sector consists of activities in agriculture, hunting, forestry and fishing, in accordance with division 1 (ISIC 2) or categories A-B (ISIC 3) or category A (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.AGR.EMPL.MA.ZS,,1960-2017,560,1728,\N,0,\N
+3067,Employment in industry (% of total employment) (modeled ILO estimate),modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.IND.EMPL.ZS,,1960-2017,560,1729,\N,0,\N
+3068,"Employment in industry, female (% of female employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.IND.EMPL.FE.ZS,,1960-2017,560,1730,\N,0,\N
+3069,"Employment in industry, male (% of male employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The industry sector consists of mining and quarrying, manufacturing, construction, and public utilities (electricity, gas, and water), in accordance with divisions 2-5 (ISIC 2) or categories C-F (ISIC 3) or categories B-F (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.IND.EMPL.MA.ZS,,1960-2017,560,1731,\N,0,\N
+3070,Employment in services (% of total employment) (modeled ILO estimate),modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.SRV.EMPL.ZS,,1960-2017,560,1732,\N,0,\N
+3071,"Employment in services, female (% of female employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.SRV.EMPL.FE.ZS,,1960-2017,560,1733,\N,0,\N
+3072,"Employment in services, male (% of male employment) (modeled ILO estimate)",modeled ILO estimate,numeric,"Employment is defined as persons of working age who were engaged in any activity to produce goods or provide services for pay or profit, whether at work during the reference period or not at work due to temporary absence from a job, or to working-time arrangement. The services sector consists of wholesale and retail trade and restaurants and hotels; transport, storage, and communications; financing, insurance, real estate, and business services; and community, social, and personal services, in accordance with divisions 6-9 (ISIC 2) or categories G-Q (ISIC 3) or categories G-U (ISIC 4).",7/6/17 8:50,12/11/18 20:12,SL.SRV.EMPL.MA.ZS,,1960-2017,560,1734,\N,0,\N
+3327,Proportion of seats held by women in national parliaments (%),%,numeric,Women in parliaments are the percentage of parliamentary seats in a single or lower chamber held by women.,7/6/17 8:59,12/11/18 20:12,SG.GEN.PARL.ZS,,1960-2017,562,1989,%,0,\N
+3342,Mothers are guaranteed an equivalent position after maternity leave (1=yes; 0=no),1=yes; 0=no,binary,"Mothers are guaranteed an equivalent position after maternity leave is whether employers of women returning from maternity leave are legally obligated to provide them with an equivalent position after maternity leave. It takes into account paid and unpaid maternity leave and captures whether the employer has a legal obligation to reinstate the returning employee in an equivalent or better position and salary than the employee had pre-leave. Where the maternity leave regime explicitly states that the employee may not be indefinitely replaced, the answer is assumed to be “Yes.” Where the maternity leave regime explicitly establishes a suspension of the employee’s contract, the answer is assumed to be “Yes.” In economies that also have parental leave and the law guarantees return after the leave to the same or an equivalent position paid at the same rate but is silent on guaranteeing the same position after maternity leave, the answer is “Yes.” The answer is “N/A” if no paid or unpaid maternity leave is available.",7/6/17 8:59,12/11/18 20:12,SG.MMR.LEVE.EP,,1960-2017,562,2004,\N,0,\N
+3343,Nonpregnant and nonnursing women can do the same jobs as men (1=yes; 0=no),1=yes; 0=no,binary,"Non-pregnant and non-nursing women can do the same jobs as men indicates whether there are specific jobs that women explicitly or implicitly cannot perform except in limited circumstances. Both partial and full restrictions on women’s work are counted as restrictions. For example, if women are only allowed to work in certain jobs within the mining industry, e.g., as health care professionals within mines but not as miners, this is a restriction.",7/6/17 8:59,12/11/18 20:12,SG.JOB.NOPN.EQ,,1960-2017,562,2005,\N,0,\N
+3345,Age dependency ratio (% of working-age population),% of working-age population,numeric,Age dependency ratio is the ratio of dependents--people younger than 15 or older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.,7/6/17 9:03,12/11/18 20:12,SP.POP.DPND,,1960-2017,563,2007,%,0,\N
+3346,"Age dependency ratio, old (% of working-age population)",% of working-age population,numeric,"Age dependency ratio, old, is the ratio of older dependents--people older than 64--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.",7/6/17 9:03,12/11/18 20:12,SP.POP.DPND.OL,,1960-2017,563,2008,%,0,\N
+3347,"Age dependency ratio, young (% of working-age population)",% of working-age population,numeric,"Age dependency ratio, young, is the ratio of younger dependents--people younger than 15--to the working-age population--those ages 15-64. Data are shown as the proportion of dependents per 100 working-age population.",7/6/17 9:03,12/11/18 20:12,SP.POP.DPND.YG,,1960-2017,563,2009,%,0,\N
+3361,Diabetes prevalence (% of population ages 20 to 79),% of population ages 20 to 79,numeric,Diabetes prevalence refers to the percentage of people ages 20-79 who have type 1 or type 2 diabetes.,7/6/17 9:03,12/11/18 20:12,SH.STA.DIAB.ZS,,1960-2017,563,2023,%,0,\N
+3373,"Immunization, DPT (% of children ages 12-23 months)",% of children ages 12-23 months,numeric,"Child immunization, DPT, measures the percentage of children ages 12-23 months who received DPT vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against diphtheria, pertussis (or whooping cough), and tetanus (DPT) after receiving three doses of vaccine.",7/6/17 9:03,12/11/18 20:12,SH.IMM.IDPT,,1960-2017,563,2035,%,0,\N
+3375,"Immunization, measles (% of children ages 12-23 months)",% of children ages 12-23 months,numeric,"Child immunization, measles, measures the percentage of children ages 12-23 months who received the measles vaccination before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receiving one dose of vaccine.",7/6/17 9:03,12/11/18 20:12,SH.IMM.MEAS,,1960-2017,563,2037,%,0,\N
+3394,"Mortality rate, infant (per 1,000 live births)","per 1,000 live births",numeric,"Infant mortality rate is the number of infants dying before reaching one year of age, per 1,000 live births in a given year.",7/6/17 9:03,12/11/18 20:12,SP.DYN.IMRT.IN,,1960-2017,563,2056,\N,0,\N
+3395,"Mortality rate, infant, female (per 1,000 live births)","per 1,000 live births",numeric,"Infant mortality rate, female is the number of female infants dying before reaching one year of age, per 1,000 female live births in a given year.",7/6/17 9:03,12/11/18 20:12,SP.DYN.IMRT.FE.IN,,1960-2017,563,2057,\N,0,\N
+3396,"Mortality rate, infant, male (per 1,000 live births)","per 1,000 live births",numeric,"Infant mortality rate, male is the number of male infants dying before reaching one year of age, per 1,000 male live births in a given year.",7/6/17 9:03,12/11/18 20:12,SP.DYN.IMRT.MA.IN,,1960-2017,563,2058,\N,0,\N
+3397,"Mortality rate, neonatal (per 1,000 live births)","per 1,000 live births",numeric,"Neonatal mortality rate is the number of neonates dying before reaching 28 days of age, per 1,000 live births in a given year.",7/6/17 9:03,12/11/18 20:12,SH.DYN.NMRT,,1960-2017,563,2059,\N,0,\N
+3398,"Mortality rate, under-5 (per 1,000 live births)","per 1,000 live births",numeric,"Under-five mortality rate is the probability per 1,000 that a newborn baby will die before reaching age five, if subject to age-specific mortality rates of the specified year.",7/6/17 9:03,6/4/19 5:09,SH.DYN.MORT,,1960-2017,563,2060,\N,0,\N
+3399,"Mortality rate, under-5, female (per 1,000 live births)","per 1,000 live births",numeric,"Under-five mortality rate, female is the probability per 1,000 that a newborn female baby will die before reaching age five, if subject to female age-specific mortality rates of the specified year.",7/6/17 9:03,12/11/18 20:12,SH.DYN.MORT.FE,,1960-2017,563,2061,\N,0,\N
+3400,"Mortality rate, under-5, male (per 1,000 live births)","per 1,000 live births",numeric,"Under-five mortality rate, male is the probability per 1,000 that a newborn male baby will die before reaching age five, if subject to male age-specific mortality rates of the specified year.",7/6/17 9:03,12/11/18 20:12,SH.DYN.MORT.MA,,1960-2017,563,2062,\N,0,\N
+3448,"Population, female (% of total)",% of total,numeric,"Female population is the percentage of the population that is female. Population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship.",7/6/17 9:03,12/11/18 20:12,SP.POP.TOTL.FE.ZS,,1960-2017,563,2110,%,0,\N
+3449,"Population, total",,numeric,"Total population is based on the de facto definition of population, which counts all residents regardless of legal status or citizenship. The values shown are midyear estimates.",7/6/17 9:03,12/11/18 20:12,SP.POP.TOTL,,1960-2017,563,2111,\N,0,\N
+3485,Number of infant deaths,,numeric,Number of infants dying before reaching one year of age.,7/6/17 9:03,12/11/18 20:12,SH.DTH.IMRT,,1960-2017,563,2147,\N,0,\N
+3486,Number of neonatal deaths,,numeric,Number of neonates dying before reaching 28 days of age.,7/6/17 9:03,12/11/18 20:12,SH.DTH.NMRT,,1960-2017,563,2148,\N,0,\N
+3488,Number of under-five deaths,,numeric,Number of children dying before reaching age five.,7/6/17 9:03,12/11/18 20:12,SH.DTH.MORT,,1960-2017,563,2150,\N,0,\N
+8621,WHO region,,category,"WHO Member Countries are grouped into six regions, called WHO regions.",8/1/17 16:11,2/28/18 8:58,\N,Global ,2017,659,2809,\N,0,\N
+42452,Universal suffrage to women (OWID based on Paxton et al (2006)),,binary,"Right to vote to all women in a country, granted in that year or any previous year. The values are coded as Yes and No. ",9/14/17 12:36,2/28/18 8:58,\N,Global by country ,1893-2017,927,6786,\N,0,\N
+42453,First women in parliament (OWID based on Paxton et al (2006)),,binary,"First female member of parliament (MP) in a country, elected in that year or any previous year. The values are coded as Yes and No. ",9/14/17 12:36,2/28/18 8:58,\N,Global by country,1893-2017,927,6786,\N,0,\N
+42454,10% Share of women in parliament (OWID based on Paxton et al (2006)),,binary,"At least 10% of seats in a country's parliament occupied by women, in that year or any previous year. The values are coded as Yes and No. ",9/14/17 12:36,2/28/18 8:58,\N,Global by country,1893-2017,927,6786,\N,0,\N
+42455,20% Share of women in parliament (OWID based on Paxton et al (2006)),,binary,"At least 20% of seats in a country's parliament occupied by women, in that year or any previous year. The values are coded as Yes and No. ",9/14/17 12:36,2/28/18 8:58,\N,Global by country,1893-2017,927,6786,\N,0,\N
+42456,30% Share of women in parliament (OWID based on Paxton et al (2006)),,binary,"At least 30% of seats in a country's parliament occupied by women, in that year or any previous year. The values are coded as Yes and No. ",9/14/17 12:36,2/28/18 8:58,\N,Global by country,1893-2017,927,6786,\N,0,\N
+42619,World Region according to the World Bank,,category,,10/8/17 17:24,2/28/18 8:58,\N,,,960,6819,\N,0,\N
+43198,Annual CO2 emissions (Global Carbon Project & CDIAC (2019)),million tonnes,numeric,Annual territorial emissions of carbon dioxide (CO₂) from fossil fuels and cement. ,11/14/17 12:12,8/19/19 15:03,\N,global by country,,1041,6896,\N,0,\N
+56489,DALYs (Disability-Adjusted Life Years) - Conflict and terrorism - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:41,2 945 3 22 1,,,1455,12765,\N,0,\N
+56591,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 1 1,,,1463,12773,\N,0,\N
+56592,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 1 3,,,1463,12773,\N,0,\N
+56593,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 22 1,,,1463,12773,\N,0,\N
+56594,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 22 3,,,1463,12773,\N,0,\N
+56595,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 23 1,,,1463,12773,\N,0,\N
+56596,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 23 3,,,1463,12773,\N,0,\N
+56597,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 24 1,,,1463,12773,\N,0,\N
+56598,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 24 3,,,1463,12773,\N,0,\N
+56599,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 25 1,,,1463,12773,\N,0,\N
+56600,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 25 3,,,1463,12773,\N,0,\N
+56601,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 26 1,,,1463,12773,\N,0,\N
+56602,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 26 3,,,1463,12773,\N,0,\N
+56603,DALYs (Disability-Adjusted Life Years) - All causes - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:42,2 294 3 27 3,,,1463,12773,\N,0,\N
+56604,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Under 5 (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 1 1,,,1464,12774,\N,0,\N
+56606,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: All Ages (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 22 1,,,1464,12774,\N,0,\N
+56608,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: 5-14 years (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 23 1,,,1464,12774,\N,0,\N
+56610,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: 15-49 years (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 24 1,,,1464,12774,\N,0,\N
+56612,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: 50-69 years (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 25 1,,,1464,12774,\N,0,\N
+56614,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: 70+ years (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 26 1,,,1464,12774,\N,0,\N
+56616,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Age-standardized (Rate)",Rate,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 295 3 27 3,,,1464,12774,\N,0,\N
+56632,DALYs (Disability-Adjusted Life Years) - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:43,2 297 3 22 1,,,1466,12776,\N,0,\N
+56645,DALYs (Disability-Adjusted Life Years) - HIV/AIDS - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:44,2 298 3 22 1,,,1467,12777,\N,0,\N
+56761,DALYs (Disability-Adjusted Life Years) - Non-melanoma skin cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:56,2 462 3 27 3,,,1476,12786,\N,0,\N
+56774,DALYs (Disability-Adjusted Life Years) - Ovarian cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:56,2 465 3 27 3,,,1477,12787,\N,0,\N
+56787,DALYs (Disability-Adjusted Life Years) - Testicular cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:56,2 468 3 27 3,,,1478,12788,\N,0,\N
+56972,DALYs (Disability-Adjusted Life Years) - Cardiovascular diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:36,2 491 3 22 1,,,1494,12804,\N,0,\N
+57074,"DALYs (Disability-Adjusted Life Years) - Fire, heat, and hot substances - Sex: Both - Age: All Ages (Number)",Number,numeric,\N,11/20/17 15:27,4/24/19 0:56,2 699 3 22 1,,,1502,12812,\N,0,\N
+57087,DALYs (Disability-Adjusted Life Years) - Poisonings - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:56,2 700 3 22 1,,,1503,12813,\N,0,\N
+57282,DALYs (Disability-Adjusted Life Years) - Self-harm - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:35,2 718 3 22 1,,,1518,12828,\N,0,\N
+57321,DALYs (Disability-Adjusted Life Years) - Interpersonal violence - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:03,2 724 3 22 1,,,1521,12831,\N,0,\N
+57371,DALYs (Disability-Adjusted Life Years) - Nutritional deficiencies - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:24,2 386 3 22 1,,,1525,12835,\N,0,\N
+57396,"Deaths - Tracheal, bronchus, and lung cancer - Sex: Both - Age: Age-standardized (Rate)",Rate,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 426 3 27 3,,,1527,12837,\N,0,\N
+57397,Deaths - Breast cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 429 3 22 1,,,1528,12838,\N,0,\N
+57405,Deaths - Breast cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 429 3 27 3,,,1528,12838,\N,0,\N
+57406,Deaths - Cervical cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 432 3 22 1,,,1529,12839,\N,0,\N
+57414,Deaths - Cervical cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 432 3 27 3,,,1529,12839,\N,0,\N
+57415,Deaths - Uterine cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:05,1 435 3 22 1,,,1530,12840,\N,0,\N
+57423,Deaths - Uterine cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 435 3 27 3,,,1530,12840,\N,0,\N
+57424,Deaths - Prostate cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 438 3 22 1,,,1531,12841,\N,0,\N
+57432,Deaths - Prostate cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 438 3 27 3,,,1531,12841,\N,0,\N
+57433,Deaths - Colon and rectum cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 441 3 22 1,,,1532,12842,\N,0,\N
+57441,Deaths - Colon and rectum cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 441 3 27 3,,,1532,12842,\N,0,\N
+57442,Deaths - Lip and oral cavity cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 444 3 22 1,,,1533,12843,\N,0,\N
+57450,Deaths - Lip and oral cavity cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 444 3 27 3,,,1533,12843,\N,0,\N
+57451,Deaths - Nasopharynx cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 447 3 22 1,,,1534,12844,\N,0,\N
+57461,Deaths - Nasopharynx cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 447 3 27 3,,,1534,12844,\N,0,\N
+57462,Deaths - Other pharynx cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:06,1 450 3 22 1,,,1535,12845,\N,0,\N
+57470,Deaths - Other pharynx cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:07,1 450 3 27 3,,,1535,12845,\N,0,\N
+57471,Deaths - Gallbladder and biliary tract cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:07,1 453 3 22 1,,,1536,12846,\N,0,\N
+57479,Deaths - Gallbladder and biliary tract cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:07,1 453 3 27 3,,,1536,12846,\N,0,\N
+57486,Deaths - Injuries - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 687 3 1 3,,,1538,12848,\N,0,\N
+57487,Deaths - Injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 687 3 22 1,,,1538,12848,\N,0,\N
+57497,Deaths - Injuries - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 687 3 27 3,,,1538,12848,\N,0,\N
+57511,Deaths - Road injuries - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 689 3 1 1,,,1540,12850,\N,0,\N
+57512,Deaths - Road injuries - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 689 3 1 3,,,1540,12850,\N,0,\N
+57513,Deaths - Road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:13,1 689 3 22 1,,,1540,12850,\N,0,\N
+57514,Deaths - Road injuries - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 22 3,,,1540,12850,\N,0,\N
+57515,Deaths - Road injuries - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 23 1,,,1540,12850,\N,0,\N
+57516,Deaths - Road injuries - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 23 3,,,1540,12850,\N,0,\N
+57517,Deaths - Road injuries - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 24 1,,,1540,12850,\N,0,\N
+57518,Deaths - Road injuries - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 24 3,,,1540,12850,\N,0,\N
+57519,Deaths - Road injuries - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 25 1,,,1540,12850,\N,0,\N
+57520,Deaths - Road injuries - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 25 3,,,1540,12850,\N,0,\N
+57521,Deaths - Road injuries - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 26 1,,,1540,12850,\N,0,\N
+57522,Deaths - Road injuries - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 26 3,,,1540,12850,\N,0,\N
+57523,Deaths - Road injuries - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 689 3 27 3,,,1540,12850,\N,0,\N
+57526,Deaths - Pedestrian road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 690 3 22 1,,,1541,12851,\N,0,\N
+57539,Deaths - Cyclist road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:14,1 691 3 22 1,,,1542,12852,\N,0,\N
+57552,Deaths - Motorcyclist road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:26,1 692 3 22 1,,,1543,12853,\N,0,\N
+57564,Deaths - Multidrug-resistant HIV/AIDS - Tuberculosis without extensive drug resistance - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:55,1 949 3 22 1,,,1459,12769,\N,0,\N
+57577,Deaths - Drug-susceptible HIV/AIDS - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:55,1 948 3 22 1,,,1458,12768,\N,0,\N
+57591,Deaths - Extensively drug-resistant HIV/AIDS - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:56,1 950 3 22 1,,,1460,12770,\N,0,\N
+57602,Deaths - All causes - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 1 1,,,1463,12773,\N,0,\N
+57606,Deaths - All causes - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 23 1,,,1463,12773,\N,0,\N
+57608,Deaths - All causes - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 24 1,,,1463,12773,\N,0,\N
+57610,Deaths - All causes - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 25 1,,,1463,12773,\N,0,\N
+57612,Deaths - All causes - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 26 1,,,1463,12773,\N,0,\N
+57614,Deaths - All causes - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:22,1 294 3 27 3,,,1463,12773,\N,0,\N
+57616,"Deaths - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Under 5 (Rate)",Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 295 3 1 3,,,1464,12774,\N,0,\N
+57617,"Deaths - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: All Ages (Number)",Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 295 3 22 1,,,1464,12774,\N,0,\N
+57627,"Deaths - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: Age-standardized (Rate)",Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 295 3 27 3,,,1464,12774,\N,0,\N
+57641,Deaths - Tuberculosis - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 1 1,,,1466,12776,\N,0,\N
+57726,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:17,1 521 3 1 1,,,1550,12860,\N,0,\N
+57730,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:18,1 521 3 23 1,,,1550,12860,\N,0,\N
+57732,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:18,1 521 3 24 1,,,1550,12860,\N,0,\N
+57734,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:18,1 521 3 25 1,,,1550,12860,\N,0,\N
+57736,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:18,1 521 3 26 1,,,1550,12860,\N,0,\N
+57787,Deaths - Digestive diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 1 1,,,1555,12865,\N,0,\N
+57788,Deaths - Digestive diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 1 3,,,1555,12865,\N,0,\N
+57791,Deaths - Digestive diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 23 1,,,1555,12865,\N,0,\N
+57793,Deaths - Digestive diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 24 1,,,1555,12865,\N,0,\N
+57795,Deaths - Digestive diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 25 1,,,1555,12865,\N,0,\N
+57797,Deaths - Digestive diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:19,1 526 3 26 1,,,1555,12865,\N,0,\N
+57893,Deaths - Gallbladder and biliary diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:46,1 534 3 22 1,,,1563,12873,\N,0,\N
+57954,Deaths - Tuberculosis - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 1 3,,,1466,12776,\N,0,\N
+57955,Deaths - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 22 1,,,1466,12776,\N,0,\N
+57956,Deaths - Tuberculosis - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 22 3,,,1466,12776,\N,0,\N
+57957,Deaths - Tuberculosis - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 23 1,,,1466,12776,\N,0,\N
+57958,Deaths - Tuberculosis - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 23 3,,,1466,12776,\N,0,\N
+57959,Deaths - Tuberculosis - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 24 1,,,1466,12776,\N,0,\N
+57960,Deaths - Tuberculosis - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 24 3,,,1466,12776,\N,0,\N
+57961,Deaths - Tuberculosis - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 25 1,,,1466,12776,\N,0,\N
+57962,Deaths - Tuberculosis - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 25 3,,,1466,12776,\N,0,\N
+57963,Deaths - Tuberculosis - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 26 1,,,1466,12776,\N,0,\N
+57964,Deaths - Tuberculosis - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 26 3,,,1466,12776,\N,0,\N
+57965,Deaths - Tuberculosis - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 297 3 27 3,,,1466,12776,\N,0,\N
+57966,Deaths - HIV/AIDS - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 1 1,,,1467,12777,\N,0,\N
+57967,Deaths - HIV/AIDS - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 1 3,,,1467,12777,\N,0,\N
+57968,Deaths - HIV/AIDS - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 22 1,,,1467,12777,\N,0,\N
+57969,Deaths - HIV/AIDS - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 22 3,,,1467,12777,\N,0,\N
+57970,Deaths - HIV/AIDS - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 23 1,,,1467,12777,\N,0,\N
+57971,Deaths - HIV/AIDS - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 23 3,,,1467,12777,\N,0,\N
+57972,Deaths - HIV/AIDS - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 24 1,,,1467,12777,\N,0,\N
+57973,Deaths - HIV/AIDS - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 24 3,,,1467,12777,\N,0,\N
+57974,Deaths - HIV/AIDS - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 25 1,,,1467,12777,\N,0,\N
+57975,Deaths - HIV/AIDS - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 25 3,,,1467,12777,\N,0,\N
+57976,Deaths - HIV/AIDS - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 26 1,,,1467,12777,\N,0,\N
+57977,Deaths - HIV/AIDS - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 26 3,,,1467,12777,\N,0,\N
+57978,Deaths - HIV/AIDS - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 298 3 27 3,,,1467,12777,\N,0,\N
+57981,Deaths - HIV/AIDS resulting in other diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:23,1 300 3 22 1,,,1468,12778,\N,0,\N
+58005,Deaths - Diarrheal diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 1 1,,,1470,12780,\N,0,\N
+58006,Deaths - Diarrheal diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 1 3,,,1470,12780,\N,0,\N
+58008,Deaths - Diarrheal diseases - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 22 3,,,1470,12780,\N,0,\N
+58009,Deaths - Diarrheal diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 23 1,,,1470,12780,\N,0,\N
+58010,Deaths - Diarrheal diseases - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 23 3,,,1470,12780,\N,0,\N
+58011,Deaths - Diarrheal diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 24 1,,,1470,12780,\N,0,\N
+58012,Deaths - Diarrheal diseases - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 24 3,,,1470,12780,\N,0,\N
+58013,Deaths - Diarrheal diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 25 1,,,1470,12780,\N,0,\N
+58014,Deaths - Diarrheal diseases - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 25 3,,,1470,12780,\N,0,\N
+58015,Deaths - Diarrheal diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 26 1,,,1470,12780,\N,0,\N
+58016,Deaths - Diarrheal diseases - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 26 3,,,1470,12780,\N,0,\N
+58017,Deaths - Diarrheal diseases - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:24,1 302 3 27 3,,,1470,12780,\N,0,\N
+58070,Deaths - Lower respiratory infections - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 1 1,,,1480,12790,\N,0,\N
+58071,Deaths - Lower respiratory infections - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 1 3,,,1480,12790,\N,0,\N
+58072,Deaths - Lower respiratory infections - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 22 1,,,1480,12790,\N,0,\N
+58074,Deaths - Lower respiratory infections - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 23 1,,,1480,12790,\N,0,\N
+58076,Deaths - Lower respiratory infections - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 24 1,,,1480,12790,\N,0,\N
+58078,Deaths - Lower respiratory infections - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 25 1,,,1480,12790,\N,0,\N
+58080,Deaths - Lower respiratory infections - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:25,1 322 3 26 1,,,1480,12790,\N,0,\N
+58109,Deaths - Meningitis - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:43,1 332 3 1 1,,,1483,12793,\N,0,\N
+58110,Deaths - Meningitis - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:43,1 332 3 1 3,,,1483,12793,\N,0,\N
+58111,Deaths - Meningitis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:43,1 332 3 22 1,,,1483,12793,\N,0,\N
+58137,Deaths - H influenzae type B meningitis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:43,1 334 3 22 1,,,1485,12795,\N,0,\N
+58150,Deaths - Meningococcal meningitis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:44,1 335 3 22 1,,,1486,12796,\N,0,\N
+58189,Deaths - Diphtheria - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:44,1 338 3 22 1,,,1566,12876,\N,0,\N
+58198,Deaths - Whooping cough - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 339 3 1 1,,,1567,12877,\N,0,\N
+58199,Deaths - Whooping cough - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 339 3 1 3,,,1567,12877,\N,0,\N
+58200,Deaths - Whooping cough - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 339 3 22 1,,,1567,12877,\N,0,\N
+58222,Deaths - Congenital birth defects - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:11,1 641 3 1 1,,,1433,12743,\N,0,\N
+58223,Deaths - Congenital birth defects - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:11,1 641 3 1 3,,,1433,12743,\N,0,\N
+58393,Deaths - Motor vehicle road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/23/19 23:26,1 693 3 22 1,,,1572,12882,\N,0,\N
+58406,Deaths - Other road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:35,1 694 3 22 1,,,1573,12883,\N,0,\N
+58456,Deaths - Drowning - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 1 1,,,1577,12887,\N,0,\N
+58457,Deaths - Drowning - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 1 3,,,1577,12887,\N,0,\N
+58459,Deaths - Drowning - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 22 3,,,1577,12887,\N,0,\N
+58460,Deaths - Drowning - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 23 1,,,1577,12887,\N,0,\N
+58461,Deaths - Drowning - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 23 3,,,1577,12887,\N,0,\N
+58462,Deaths - Drowning - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 24 1,,,1577,12887,\N,0,\N
+58463,Deaths - Drowning - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 24 3,,,1577,12887,\N,0,\N
+58464,Deaths - Drowning - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 25 1,,,1577,12887,\N,0,\N
+58465,Deaths - Drowning - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 25 3,,,1577,12887,\N,0,\N
+58466,Deaths - Drowning - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:37,1 698 3 26 1,,,1577,12887,\N,0,\N
+58492,Deaths - Non-communicable diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:59,1 409 3 1 3,,,1580,12890,\N,0,\N
+58493,Deaths - Tetanus - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 340 3 22 1,,,1568,12878,\N,0,\N
+58503,Deaths - Tetanus - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 340 3 27 3,,,1568,12878,\N,0,\N
+58504,Deaths - Measles - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 341 3 1 1,,,1581,12891,\N,0,\N
+58505,Deaths - Measles - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 341 3 1 3,,,1581,12891,\N,0,\N
+58506,Deaths - Measles - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:45,1 341 3 22 1,,,1581,12891,\N,0,\N
+58521,Deaths - Alzheimer disease and other dementias - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 543 3 24 1,,,1583,12893,\N,0,\N
+58523,Deaths - Alzheimer disease and other dementias - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 543 3 25 1,,,1583,12893,\N,0,\N
+58525,Deaths - Alzheimer disease and other dementias - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 543 3 26 1,,,1583,12893,\N,0,\N
+58527,Deaths - Alzheimer disease and other dementias - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 543 3 27 3,,,1583,12893,\N,0,\N
+58534,Deaths - Parkinson disease - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 544 3 24 1,,,1584,12894,\N,0,\N
+58536,Deaths - Parkinson disease - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 544 3 25 1,,,1584,12894,\N,0,\N
+58538,Deaths - Parkinson disease - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:47,1 544 3 26 1,,,1584,12894,\N,0,\N
+58591,Deaths - Mental and substance use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 558 3 22 1,,,1589,12899,\N,0,\N
+58592,Deaths - Mental and substance use disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 558 3 22 3,,,1589,12899,\N,0,\N
+58594,Deaths - Mental and substance use disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 558 3 23 3,,,1589,12899,\N,0,\N
+58596,Deaths - Mental and substance use disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 558 3 24 3,,,1589,12899,\N,0,\N
+58601,Deaths - Mental and substance use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 558 3 27 3,,,1589,12899,\N,0,\N
+58602,Deaths - Alcohol use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 560 3 22 1,,,1590,12900,\N,0,\N
+58604,Deaths - Alcohol use disorders - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 560 3 24 1,,,1590,12900,\N,0,\N
+58606,Deaths - Alcohol use disorders - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 560 3 25 1,,,1590,12900,\N,0,\N
+58608,Deaths - Alcohol use disorders - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 560 3 26 1,,,1590,12900,\N,0,\N
+58610,Deaths - Alcohol use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 560 3 27 3,,,1590,12900,\N,0,\N
+58613,Deaths - Drug use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 561 3 22 1,,,1591,12901,\N,0,\N
+58617,Deaths - Drug use disorders - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 561 3 24 1,,,1591,12901,\N,0,\N
+58619,Deaths - Drug use disorders - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 561 3 25 1,,,1591,12901,\N,0,\N
+58621,Deaths - Drug use disorders - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:53,1 561 3 26 1,,,1591,12901,\N,0,\N
+58623,Deaths - Drug use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:54,1 561 3 27 3,,,1591,12901,\N,0,\N
+58636,Deaths - Opioid use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:54,1 562 3 27 3,,,1592,12902,\N,0,\N
+58778,Deaths - Malaria - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 1 1,,,1607,12917,\N,0,\N
+58779,Deaths - Malaria - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 1 3,,,1607,12917,\N,0,\N
+58780,Deaths - Malaria - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 22 1,,,1607,12917,\N,0,\N
+58781,Deaths - Malaria - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 22 3,,,1607,12917,\N,0,\N
+58782,Deaths - Malaria - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 23 1,,,1607,12917,\N,0,\N
+58783,Deaths - Malaria - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 23 3,,,1607,12917,\N,0,\N
+58784,Deaths - Malaria - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 24 1,,,1607,12917,\N,0,\N
+58785,Deaths - Malaria - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 24 3,,,1607,12917,\N,0,\N
+58786,Deaths - Malaria - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 25 1,,,1607,12917,\N,0,\N
+58787,Deaths - Malaria - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 25 3,,,1607,12917,\N,0,\N
+58788,Deaths - Malaria - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 26 1,,,1607,12917,\N,0,\N
+58789,Deaths - Malaria - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 26 3,,,1607,12917,\N,0,\N
+58790,Deaths - Malaria - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:50,1 345 3 27 3,,,1607,12917,\N,0,\N
+58889,Deaths - Yellow fever - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:49,1 358 3 22 1,,,1616,12926,\N,0,\N
+58902,Deaths - Rabies - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:40,1 359 3 22 1,,,1617,12927,\N,0,\N
+58961,Deaths - Maternal hemorrhage - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:42,1 367 3 22 1,,,1622,12932,\N,0,\N
+58970,Deaths - Maternal sepsis and other maternal infections - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:43,1 368 3 22 1,,,1623,12933,\N,0,\N
+58979,Deaths - Maternal hypertensive disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:43,1 369 3 22 1,,,1624,12934,\N,0,\N
+58988,Deaths - Maternal obstructed labor and uterine rupture - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:43,1 370 3 22 1,,,1625,12935,\N,0,\N
+59006,Deaths - Indirect maternal deaths - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:44,1 375 3 22 1,,,1627,12937,\N,0,\N
+59015,Deaths - Late maternal deaths - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:44,1 376 3 22 1,,,1628,12938,\N,0,\N
+59024,Deaths - Other maternal disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:44,1 379 3 22 1,,,1629,12939,\N,0,\N
+59034,Deaths - Neonatal disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 380 3 1 3,,,1630,12940,\N,0,\N
+59038,Deaths - Neonatal preterm birth complications - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 381 3 1 1,,,1631,12941,\N,0,\N
+59039,Deaths - Neonatal preterm birth complications - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 381 3 1 3,,,1631,12941,\N,0,\N
+59043,Deaths - Neonatal encephalopathy due to birth asphyxia and trauma - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 382 3 1 1,,,1632,12942,\N,0,\N
+59044,Deaths - Neonatal encephalopathy due to birth asphyxia and trauma - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 382 3 1 3,,,1632,12942,\N,0,\N
+59048,Deaths - Neonatal sepsis and other neonatal infections - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 383 3 1 1,,,1522,12832,\N,0,\N
+59058,Deaths - Other neonatal disorders - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 385 3 1 1,,,1524,12834,\N,0,\N
+59059,Deaths - Other neonatal disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:45,1 385 3 1 3,,,1524,12834,\N,0,\N
+59063,Deaths - Nutritional deficiencies - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:56,1 386 3 1 1,,,1525,12835,\N,0,\N
+59064,Deaths - Nutritional deficiencies - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 1:56,1 386 3 1 3,,,1525,12835,\N,0,\N
+59077,Deaths - Diabetes mellitus - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:52,1 587 3 1 1,,,1634,12944,\N,0,\N
+59078,Deaths - Diabetes mellitus - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:52,1 587 3 1 3,,,1634,12944,\N,0,\N
+59081,Deaths - Diabetes mellitus - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:52,1 587 3 23 1,,,1634,12944,\N,0,\N
+59083,Deaths - Diabetes mellitus - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:52,1 587 3 24 1,,,1634,12944,\N,0,\N
+59087,Deaths - Diabetes mellitus - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:52,1 587 3 26 1,,,1634,12944,\N,0,\N
+59103,Deaths - Chronic kidney disease - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:20,1 589 3 1 1,,,1636,12946,\N,0,\N
+59107,Deaths - Chronic kidney disease - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:20,1 589 3 23 1,,,1636,12946,\N,0,\N
+59109,Deaths - Chronic kidney disease - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:20,1 589 3 24 1,,,1636,12946,\N,0,\N
+59111,Deaths - Chronic kidney disease - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:20,1 589 3 25 1,,,1636,12946,\N,0,\N
+59113,Deaths - Chronic kidney disease - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:21,1 589 3 26 1,,,1636,12946,\N,0,\N
+59219,Deaths - Chronic respiratory diseases - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 22 3,,,1429,12739,\N,0,\N
+59220,Deaths - Chronic respiratory diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 23 1,,,1429,12739,\N,0,\N
+59221,Deaths - Chronic respiratory diseases - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 23 3,,,1429,12739,\N,0,\N
+59222,Deaths - Chronic respiratory diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 24 1,,,1429,12739,\N,0,\N
+59223,Deaths - Chronic respiratory diseases - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 24 3,,,1429,12739,\N,0,\N
+59224,Deaths - Chronic respiratory diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 25 1,,,1429,12739,\N,0,\N
+59225,Deaths - Chronic respiratory diseases - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 25 3,,,1429,12739,\N,0,\N
+59226,Deaths - Chronic respiratory diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 26 1,,,1429,12739,\N,0,\N
+59227,Deaths - Chronic respiratory diseases - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 26 3,,,1429,12739,\N,0,\N
+59228,Deaths - Chronic respiratory diseases - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 2:15,1 508 3 27 3,,,1429,12739,\N,0,\N
+59483,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 1 1,,,1538,12848,\N,0,\N
+59485,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 22 1,,,1538,12848,\N,0,\N
+59487,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 23 1,,,1538,12848,\N,0,\N
+59489,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 24 1,,,1538,12848,\N,0,\N
+59491,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 25 1,,,1538,12848,\N,0,\N
+59493,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 26 1,,,1538,12848,\N,0,\N
+59495,DALYs (Disability-Adjusted Life Years) - Injuries - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 687 3 27 3,,,1538,12848,\N,0,\N
+59498,DALYs (Disability-Adjusted Life Years) - Transport injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:12,2 688 3 22 1,,,1539,12849,\N,0,\N
+59511,DALYs (Disability-Adjusted Life Years) - Road injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:13,2 689 3 22 1,,,1540,12850,\N,0,\N
+59589,DALYs (Disability-Adjusted Life Years) - Other transport injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:53,2 695 3 22 1,,,1574,12884,\N,0,\N
+59602,DALYs (Disability-Adjusted Life Years) - Unintentional injuries - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:54,2 696 3 22 1,,,1575,12885,\N,0,\N
+59615,DALYs (Disability-Adjusted Life Years) - Falls - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:55,2 697 3 22 1,,,1576,12886,\N,0,\N
+59628,DALYs (Disability-Adjusted Life Years) - Drowning - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:55,2 698 3 22 1,,,1577,12887,\N,0,\N
+59756,DALYs (Disability-Adjusted Life Years) - Maternal disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:16,2 366 3 22 1,,,1621,12931,\N,0,\N
+59866,DALYs (Disability-Adjusted Life Years) - Neonatal disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 0:20,2 380 3 22 1,,,1630,12940,\N,0,\N
+60120,DALYs (Disability-Adjusted Life Years) - Exposure to forces of nature - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:27,4/24/19 1:05,2 729 3 22 1,,,1680,12990,\N,0,\N
+60573,DALYs (Disability-Adjusted Life Years) - Chronic respiratory diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:27,2 508 3 22 1,,,1429,12739,\N,0,\N
+60658,DALYs (Disability-Adjusted Life Years) - Cirrhosis and other chronic liver diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 0:30,2 521 3 22 1,,,1550,12860,\N,0,\N
+60723,DALYs (Disability-Adjusted Life Years) - Digestive diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 0:33,2 526 3 22 1,,,1555,12865,\N,0,\N
+60829,Deaths - Conflict and terrorism - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:54,1 945 3 22 1,,,1455,12765,\N,0,\N
+60830,Deaths - Conflict and terrorism - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:54,1 945 3 22 3,,,1455,12765,\N,0,\N
+60843,Deaths - Nutritional deficiencies - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 386 3 23 1,,,1525,12835,\N,0,\N
+60845,Deaths - Nutritional deficiencies - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 386 3 24 1,,,1525,12835,\N,0,\N
+60847,Deaths - Nutritional deficiencies - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 386 3 25 1,,,1525,12835,\N,0,\N
+60849,Deaths - Nutritional deficiencies - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 386 3 26 1,,,1525,12835,\N,0,\N
+60961,Deaths - Hepatitis - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:58,1 400 3 1 1,,,1711,13021,\N,0,\N
+60962,Deaths - Hepatitis - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:58,1 400 3 1 3,,,1711,13021,\N,0,\N
+60964,Deaths - Hepatitis - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:58,1 400 3 22 3,,,1711,13021,\N,0,\N
+60965,Deaths - Hepatitis - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:58,1 400 3 23 1,,,1711,13021,\N,0,\N
+60967,Deaths - Hepatitis - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 400 3 24 1,,,1711,13021,\N,0,\N
+60969,Deaths - Hepatitis - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 400 3 25 1,,,1711,13021,\N,0,\N
+60971,Deaths - Hepatitis - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 400 3 26 1,,,1711,13021,\N,0,\N
+60989,Deaths - Hepatitis B - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:51,1 402 3 22 1,,,1713,13023,\N,0,\N
+61013,Deaths - Non-communicable diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 409 3 22 1,,,1580,12890,\N,0,\N
+61014,Deaths - Non-communicable diseases - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 409 3 22 3,,,1580,12890,\N,0,\N
+61023,Deaths - Non-communicable diseases - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 409 3 27 3,,,1580,12890,\N,0,\N
+61024,Deaths - Neoplasms - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 1 1,,,1715,13025,\N,0,\N
+61025,Deaths - Neoplasms - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 1 3,,,1715,13025,\N,0,\N
+61027,Deaths - Neoplasms - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 22 3,,,1715,13025,\N,0,\N
+61028,Deaths - Neoplasms - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 23 1,,,1715,13025,\N,0,\N
+61029,Deaths - Neoplasms - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 23 3,,,1715,13025,\N,0,\N
+61030,Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 24 1,,,1715,13025,\N,0,\N
+61031,Deaths - Neoplasms - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 24 3,,,1715,13025,\N,0,\N
+61032,Deaths - Neoplasms - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 25 1,,,1715,13025,\N,0,\N
+61033,Deaths - Neoplasms - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 25 3,,,1715,13025,\N,0,\N
+61034,Deaths - Neoplasms - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 26 1,,,1715,13025,\N,0,\N
+61035,Deaths - Neoplasms - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 26 3,,,1715,13025,\N,0,\N
+61036,Deaths - Neoplasms - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 410 3 27 3,,,1715,13025,\N,0,\N
+61037,Deaths - Esophageal cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:59,1 411 3 22 1,,,1716,13026,\N,0,\N
+61045,Deaths - Esophageal cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 411 3 27 3,,,1716,13026,\N,0,\N
+61046,Deaths - Stomach cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 414 3 22 1,,,1717,13027,\N,0,\N
+61054,Deaths - Stomach cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 414 3 27 3,,,1717,13027,\N,0,\N
+61055,Deaths - Liver cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 417 3 22 1,,,1718,13028,\N,0,\N
+61065,Deaths - Liver cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:04,1 417 3 27 3,,,1718,13028,\N,0,\N
+61108,Deaths - Larynx cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:05,1 423 3 22 1,,,1723,13033,\N,0,\N
+61116,Deaths - Larynx cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:05,1 423 3 27 3,,,1723,13033,\N,0,\N
+61117,"Deaths - Tracheal, bronchus, and lung cancer - Sex: Both - Age: All Ages (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 2:05,1 426 3 22 1,,,1527,12837,\N,0,\N
+61121,Deaths - Drowning - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 698 3 26 3,,,1577,12887,\N,0,\N
+61122,Deaths - Drowning - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 698 3 27 3,,,1577,12887,\N,0,\N
+61123,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: Under 5 (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 1 1,,,1502,12812,\N,0,\N
+61124,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: Under 5 (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 1 3,,,1502,12812,\N,0,\N
+61126,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: All Ages (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 22 3,,,1502,12812,\N,0,\N
+61127,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 5-14 years (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 23 1,,,1502,12812,\N,0,\N
+61128,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 5-14 years (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 23 3,,,1502,12812,\N,0,\N
+61129,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 15-49 years (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 24 1,,,1502,12812,\N,0,\N
+61130,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 15-49 years (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 24 3,,,1502,12812,\N,0,\N
+61131,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 50-69 years (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 25 1,,,1502,12812,\N,0,\N
+61132,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 50-69 years (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 25 3,,,1502,12812,\N,0,\N
+61133,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 70+ years (Number)",Number,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 26 1,,,1502,12812,\N,0,\N
+61134,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: 70+ years (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 26 3,,,1502,12812,\N,0,\N
+61135,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: Age-standardized (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 1:37,1 699 3 27 3,,,1502,12812,\N,0,\N
+61148,Deaths - Poisonings - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:38,1 700 3 27 3,,,1503,12813,\N,0,\N
+61201,Deaths - Chronic respiratory diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:15,1 508 3 1 1,,,1429,12739,\N,0,\N
+61202,Deaths - Chronic respiratory diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:15,1 508 3 1 3,,,1429,12739,\N,0,\N
+61215,Deaths - Physical violence by firearm - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 725 3 27 3,,,1676,12986,\N,0,\N
+61255,Deaths - Exposure to forces of nature - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 1 1,,,1680,12990,\N,0,\N
+61257,Deaths - Exposure to forces of nature - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 22 1,,,1680,12990,\N,0,\N
+61258,Deaths - Exposure to forces of nature - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 22 3,,,1680,12990,\N,0,\N
+61259,Deaths - Exposure to forces of nature - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 23 1,,,1680,12990,\N,0,\N
+61261,Deaths - Exposure to forces of nature - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 24 1,,,1680,12990,\N,0,\N
+61263,Deaths - Exposure to forces of nature - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 25 1,,,1680,12990,\N,0,\N
+61265,Deaths - Exposure to forces of nature - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 729 3 26 1,,,1680,12990,\N,0,\N
+61277,Deaths - Environmental heat and cold exposure - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 842 3 1 1,,,1685,12995,\N,0,\N
+61281,Deaths - Environmental heat and cold exposure - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 842 3 23 1,,,1685,12995,\N,0,\N
+61283,Deaths - Environmental heat and cold exposure - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 842 3 24 1,,,1685,12995,\N,0,\N
+61285,Deaths - Environmental heat and cold exposure - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 842 3 25 1,,,1685,12995,\N,0,\N
+61287,Deaths - Environmental heat and cold exposure - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:50,1 842 3 26 1,,,1685,12995,\N,0,\N
+61507,Deaths - Venomous animal contact - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:46,1 710 3 27 3,,,1510,12820,\N,0,\N
+61537,Deaths - Protein-energy malnutrition - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 387 3 1 1,,,1526,12836,\N,0,\N
+61538,Deaths - Protein-energy malnutrition - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 387 3 1 3,,,1526,12836,\N,0,\N
+61539,Deaths - Protein-energy malnutrition - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 387 3 22 1,,,1526,12836,\N,0,\N
+61540,Deaths - Protein-energy malnutrition - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 387 3 22 3,,,1526,12836,\N,0,\N
+61541,Deaths - Protein-energy malnutrition - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:56,1 387 3 23 1,,,1526,12836,\N,0,\N
+61542,Deaths - Protein-energy malnutrition - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 23 3,,,1526,12836,\N,0,\N
+61543,Deaths - Protein-energy malnutrition - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 24 1,,,1526,12836,\N,0,\N
+61544,Deaths - Protein-energy malnutrition - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 24 3,,,1526,12836,\N,0,\N
+61545,Deaths - Protein-energy malnutrition - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 25 1,,,1526,12836,\N,0,\N
+61546,Deaths - Protein-energy malnutrition - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 25 3,,,1526,12836,\N,0,\N
+61547,Deaths - Protein-energy malnutrition - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 26 1,,,1526,12836,\N,0,\N
+61548,Deaths - Protein-energy malnutrition - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 26 3,,,1526,12836,\N,0,\N
+61549,Deaths - Protein-energy malnutrition - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:57,1 387 3 27 3,,,1526,12836,\N,0,\N
+61675,Deaths - Pancreatic cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:07,1 456 3 22 1,,,1724,13034,\N,0,\N
+61683,Deaths - Pancreatic cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:07,1 456 3 27 3,,,1724,13034,\N,0,\N
+61684,Deaths - Malignant skin melanoma - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:07,1 459 3 22 1,,,1475,12785,\N,0,\N
+61693,Deaths - Non-melanoma skin cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:07,1 462 3 22 1,,,1476,12786,\N,0,\N
+61701,Deaths - Non-melanoma skin cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 462 3 27 3,,,1476,12786,\N,0,\N
+61702,Deaths - Ovarian cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 465 3 22 1,,,1477,12787,\N,0,\N
+61710,Deaths - Ovarian cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 465 3 27 3,,,1477,12787,\N,0,\N
+61711,Deaths - Testicular cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 468 3 22 1,,,1478,12788,\N,0,\N
+61719,Deaths - Testicular cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 468 3 27 3,,,1478,12788,\N,0,\N
+61722,Deaths - Kidney cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 471 3 22 1,,,1479,12789,\N,0,\N
+61732,Deaths - Kidney cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:08,1 471 3 27 3,,,1479,12789,\N,0,\N
+61733,Deaths - Bladder cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 474 3 22 1,,,1725,13035,\N,0,\N
+61741,Deaths - Bladder cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 474 3 27 3,,,1725,13035,\N,0,\N
+61744,Deaths - Brain and nervous system cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 477 3 22 1,,,1726,13036,\N,0,\N
+61754,Deaths - Brain and nervous system cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 477 3 27 3,,,1726,13036,\N,0,\N
+61755,Deaths - Thyroid cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:00,1 480 3 22 1,,,1727,13037,\N,0,\N
+61765,Deaths - Thyroid cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:01,1 480 3 27 3,,,1727,13037,\N,0,\N
+61766,Deaths - Mesothelioma - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:01,1 483 3 22 1,,,1728,13038,\N,0,\N
+61777,Deaths - Hodgkin lymphoma - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:01,1 484 3 22 1,,,1489,12799,\N,0,\N
+61790,Deaths - Non-Hodgkin lymphoma - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:01,1 485 3 22 1,,,1490,12800,\N,0,\N
+61801,Deaths - Multiple myeloma - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:01,1 486 3 22 1,,,1491,12801,\N,0,\N
+61812,Deaths - Leukemia - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 487 3 22 1,,,1492,12802,\N,0,\N
+61825,Deaths - Other neoplasms - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 490 3 22 1,,,1493,12803,\N,0,\N
+61836,Deaths - Cardiovascular diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 1 1,,,1494,12804,\N,0,\N
+61837,Deaths - Cardiovascular diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 1 3,,,1494,12804,\N,0,\N
+61839,Deaths - Cardiovascular diseases - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 22 3,,,1494,12804,\N,0,\N
+61840,Deaths - Cardiovascular diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 23 1,,,1494,12804,\N,0,\N
+61841,Deaths - Cardiovascular diseases - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 23 3,,,1494,12804,\N,0,\N
+61842,Deaths - Cardiovascular diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 24 1,,,1494,12804,\N,0,\N
+61843,Deaths - Cardiovascular diseases - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 24 3,,,1494,12804,\N,0,\N
+61844,Deaths - Cardiovascular diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 25 1,,,1494,12804,\N,0,\N
+61845,Deaths - Cardiovascular diseases - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 25 3,,,1494,12804,\N,0,\N
+61846,Deaths - Cardiovascular diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 26 1,,,1494,12804,\N,0,\N
+61847,Deaths - Cardiovascular diseases - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 26 3,,,1494,12804,\N,0,\N
+61848,Deaths - Cardiovascular diseases - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:02,1 491 3 27 3,,,1494,12804,\N,0,\N
+61875,Deaths - Cerebrovascular disease - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 1 1,,,1497,12807,\N,0,\N
+61876,Deaths - Cerebrovascular disease - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 1 3,,,1497,12807,\N,0,\N
+61878,Deaths - Cerebrovascular disease - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 22 3,,,1497,12807,\N,0,\N
+61879,Deaths - Cerebrovascular disease - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 23 1,,,1497,12807,\N,0,\N
+61880,Deaths - Cerebrovascular disease - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 23 3,,,1497,12807,\N,0,\N
+61881,Deaths - Cerebrovascular disease - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 24 1,,,1497,12807,\N,0,\N
+61882,Deaths - Cerebrovascular disease - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 24 3,,,1497,12807,\N,0,\N
+61883,Deaths - Cerebrovascular disease - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 25 1,,,1497,12807,\N,0,\N
+61884,Deaths - Cerebrovascular disease - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 25 3,,,1497,12807,\N,0,\N
+61885,Deaths - Cerebrovascular disease - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 26 1,,,1497,12807,\N,0,\N
+61886,Deaths - Cerebrovascular disease - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 26 3,,,1497,12807,\N,0,\N
+61887,Deaths - Cerebrovascular disease - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:03,1 494 3 27 3,,,1497,12807,\N,0,\N
+61927,Deaths - Eating disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:54,1 572 3 22 1,,,1729,13039,\N,0,\N
+61935,Deaths - Eating disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:54,1 572 3 27 3,,,1729,13039,\N,0,\N
+61994,Deaths - Self-harm - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 22 3,,,1518,12828,\N,0,\N
+61995,Deaths - Self-harm - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 23 1,,,1518,12828,\N,0,\N
+61996,Deaths - Self-harm - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 23 3,,,1518,12828,\N,0,\N
+61997,Deaths - Self-harm - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 24 1,,,1518,12828,\N,0,\N
+61998,Deaths - Self-harm - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 24 3,,,1518,12828,\N,0,\N
+61999,Deaths - Self-harm - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 25 1,,,1518,12828,\N,0,\N
+62000,Deaths - Self-harm - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 25 3,,,1518,12828,\N,0,\N
+62001,Deaths - Self-harm - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 26 1,,,1518,12828,\N,0,\N
+62002,Deaths - Self-harm - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 26 3,,,1518,12828,\N,0,\N
+62003,Deaths - Self-harm - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 718 3 27 3,,,1518,12828,\N,0,\N
+62026,Deaths - Interpersonal violence - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 724 3 1 1,,,1521,12831,\N,0,\N
+62027,Deaths - Interpersonal violence - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 724 3 1 3,,,1521,12831,\N,0,\N
+62028,Deaths - Interpersonal violence - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:48,1 724 3 22 1,,,1521,12831,\N,0,\N
+62029,Deaths - Interpersonal violence - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 22 3,,,1521,12831,\N,0,\N
+62030,Deaths - Interpersonal violence - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 23 1,,,1521,12831,\N,0,\N
+62031,Deaths - Interpersonal violence - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 23 3,,,1521,12831,\N,0,\N
+62032,Deaths - Interpersonal violence - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 24 1,,,1521,12831,\N,0,\N
+62033,Deaths - Interpersonal violence - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 24 3,,,1521,12831,\N,0,\N
+62034,Deaths - Interpersonal violence - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 25 1,,,1521,12831,\N,0,\N
+62035,Deaths - Interpersonal violence - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 25 3,,,1521,12831,\N,0,\N
+62036,Deaths - Interpersonal violence - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 26 1,,,1521,12831,\N,0,\N
+62037,Deaths - Interpersonal violence - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 26 3,,,1521,12831,\N,0,\N
+62038,Deaths - Interpersonal violence - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 1:49,1 724 3 27 3,,,1521,12831,\N,0,\N
+62059,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 22 1,,,1732,13042,\N,0,\N
+62060,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 22 3,,,1732,13042,\N,0,\N
+62062,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 23 3,,,1732,13042,\N,0,\N
+62064,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 24 3,,,1732,13042,\N,0,\N
+62066,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 25 3,,,1732,13042,\N,0,\N
+62068,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 26 3,,,1732,13042,\N,0,\N
+62069,DALYs (Disability-Adjusted Life Years) - Schizophrenia - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 559 3 27 3,,,1732,13042,\N,0,\N
+62072,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 22 1,,,1590,12900,\N,0,\N
+62073,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 22 3,,,1590,12900,\N,0,\N
+62075,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 23 3,,,1590,12900,\N,0,\N
+62077,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 24 3,,,1590,12900,\N,0,\N
+62079,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 25 3,,,1590,12900,\N,0,\N
+62081,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 26 3,,,1590,12900,\N,0,\N
+62082,DALYs (Disability-Adjusted Life Years) - Alcohol use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 560 3 27 3,,,1590,12900,\N,0,\N
+62084,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 1 3,,,1591,12901,\N,0,\N
+62085,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 22 1,,,1591,12901,\N,0,\N
+62086,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 22 3,,,1591,12901,\N,0,\N
+62088,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 23 3,,,1591,12901,\N,0,\N
+62090,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 24 3,,,1591,12901,\N,0,\N
+62092,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 25 3,,,1591,12901,\N,0,\N
+62094,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 26 3,,,1591,12901,\N,0,\N
+62095,DALYs (Disability-Adjusted Life Years) - Drug use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:29,2 561 3 27 3,,,1591,12901,\N,0,\N
+62162,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 1 3,,,1734,13044,\N,0,\N
+62163,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 22 1,,,1734,13044,\N,0,\N
+62164,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 22 3,,,1734,13044,\N,0,\N
+62166,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 23 3,,,1734,13044,\N,0,\N
+62168,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 24 3,,,1734,13044,\N,0,\N
+62170,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 25 3,,,1734,13044,\N,0,\N
+62172,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 26 3,,,1734,13044,\N,0,\N
+62173,DALYs (Disability-Adjusted Life Years) - Depressive disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:32,2 567 3 27 3,,,1734,13044,\N,0,\N
+62186,DALYs (Disability-Adjusted Life Years) - Major depressive disorder - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:51,2 568 3 27 3,,,1735,13045,\N,0,\N
+62203,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:51,2 570 3 22 3,,,1737,13047,\N,0,\N
+62205,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 570 3 23 3,,,1737,13047,\N,0,\N
+62207,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 570 3 24 3,,,1737,13047,\N,0,\N
+62209,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 570 3 25 3,,,1737,13047,\N,0,\N
+62211,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 570 3 26 3,,,1737,13047,\N,0,\N
+62212,DALYs (Disability-Adjusted Life Years) - Bipolar disorder - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 570 3 27 3,,,1737,13047,\N,0,\N
+62214,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 1 3,,,1738,13048,\N,0,\N
+62215,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 22 1,,,1738,13048,\N,0,\N
+62216,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 22 3,,,1738,13048,\N,0,\N
+62218,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 23 3,,,1738,13048,\N,0,\N
+62220,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 24 3,,,1738,13048,\N,0,\N
+62222,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 25 3,,,1738,13048,\N,0,\N
+62224,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 26 3,,,1738,13048,\N,0,\N
+62225,DALYs (Disability-Adjusted Life Years) - Anxiety disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 571 3 27 3,,,1738,13048,\N,0,\N
+62228,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 572 3 22 1,,,1729,13039,\N,0,\N
+62229,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 572 3 22 3,,,1729,13039,\N,0,\N
+62231,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 572 3 23 3,,,1729,13039,\N,0,\N
+62233,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:52,2 572 3 24 3,,,1729,13039,\N,0,\N
+62235,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:53,2 572 3 25 3,,,1729,13039,\N,0,\N
+62237,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:53,2 572 3 26 3,,,1729,13039,\N,0,\N
+62238,DALYs (Disability-Adjusted Life Years) - Eating disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:53,2 572 3 27 3,,,1729,13039,\N,0,\N
+62277,DALYs (Disability-Adjusted Life Years) - Autistic spectrum disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:54,2 575 3 27 3,,,1739,13049,\N,0,\N
+62387,DALYs (Disability-Adjusted Life Years) - Neglected tropical diseases and malaria - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:33,2 344 3 22 1,,,1606,12916,\N,0,\N
+62410,DALYs (Disability-Adjusted Life Years) - Kidney cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:57,2 471 3 27 3,,,1479,12789,\N,0,\N
+62423,DALYs (Disability-Adjusted Life Years) - Bladder cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:57,2 474 3 27 3,,,1725,13035,\N,0,\N
+62436,DALYs (Disability-Adjusted Life Years) - Brain and nervous system cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:57,2 477 3 27 3,,,1726,13036,\N,0,\N
+62607,DALYs (Disability-Adjusted Life Years) - Musculoskeletal disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:36,2 626 3 22 1,,,1648,12958,\N,0,\N
+62801,DALYs (Disability-Adjusted Life Years) - Other non-communicable diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:39,2 640 3 22 1,,,1569,12879,\N,0,\N
+62909,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 1 1,,,1580,12890,\N,0,\N
+62911,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 22 1,,,1580,12890,\N,0,\N
+62913,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 23 1,,,1580,12890,\N,0,\N
+62915,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 24 1,,,1580,12890,\N,0,\N
+62917,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 25 1,,,1580,12890,\N,0,\N
+62919,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 26 1,,,1580,12890,\N,0,\N
+62921,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 409 3 27 3,,,1580,12890,\N,0,\N
+62978,DALYs (Disability-Adjusted Life Years) - Neurological disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 1:28,2 542 3 22 1,,,1707,13017,\N,0,\N
+63094,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 1 3,,,1589,12899,\N,0,\N
+63095,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 22 1,,,1589,12899,\N,0,\N
+63096,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 22 3,,,1589,12899,\N,0,\N
+63098,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: 5-14 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 23 3,,,1589,12899,\N,0,\N
+63100,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: 15-49 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 24 3,,,1589,12899,\N,0,\N
+63102,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: 50-69 years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 25 3,,,1589,12899,\N,0,\N
+63104,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: 70+ years (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 26 3,,,1589,12899,\N,0,\N
+63105,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:28,2 558 3 27 3,,,1589,12899,\N,0,\N
+63197,DALYs (Disability-Adjusted Life Years) - Attention-deficit/hyperactivity disorder - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/23/19 23:54,2 578 3 27 3,,,1742,13052,\N,0,\N
+63226,DALYs (Disability-Adjusted Life Years) - Other mental and substance use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/23/19 23:55,2 585 3 22 1,,,1762,13072,\N,0,\N
+63297,DALYs (Disability-Adjusted Life Years) - Thyroid cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:57,2 480 3 27 3,,,1727,13037,\N,0,\N
+63313,DALYs (Disability-Adjusted Life Years) - Neoplasms - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 410 3 22 1,,,1715,13025,\N,0,\N
+63323,DALYs (Disability-Adjusted Life Years) - Neoplasms - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:39,2 410 3 27 3,,,1715,13025,\N,0,\N
+63336,DALYs (Disability-Adjusted Life Years) - Esophageal cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:40,2 411 3 27 3,,,1716,13026,\N,0,\N
+63349,DALYs (Disability-Adjusted Life Years) - Stomach cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:40,2 414 3 27 3,,,1717,13027,\N,0,\N
+63362,DALYs (Disability-Adjusted Life Years) - Liver cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:40,2 417 3 27 3,,,1718,13028,\N,0,\N
+63427,DALYs (Disability-Adjusted Life Years) - Larynx cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:42,2 423 3 27 3,,,1723,13033,\N,0,\N
+63440,"DALYs (Disability-Adjusted Life Years) - Tracheal, bronchus, and lung cancer - Sex: Both - Age: Age-standardized (Rate)",Rate,numeric,\N,11/20/17 15:28,4/24/19 2:58,2 426 3 27 3,,,1527,12837,\N,0,\N
+63453,DALYs (Disability-Adjusted Life Years) - Breast cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 2:58,2 429 3 27 3,,,1528,12838,\N,0,\N
+63466,DALYs (Disability-Adjusted Life Years) - Cervical cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:46,2 432 3 27 3,,,1529,12839,\N,0,\N
+63479,DALYs (Disability-Adjusted Life Years) - Uterine cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:46,2 435 3 27 3,,,1530,12840,\N,0,\N
+63492,DALYs (Disability-Adjusted Life Years) - Prostate cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:47,2 438 3 27 3,,,1531,12841,\N,0,\N
+63505,DALYs (Disability-Adjusted Life Years) - Colon and rectum cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:47,2 441 3 27 3,,,1532,12842,\N,0,\N
+63518,DALYs (Disability-Adjusted Life Years) - Lip and oral cavity cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:48,2 444 3 27 3,,,1533,12843,\N,0,\N
+63531,DALYs (Disability-Adjusted Life Years) - Nasopharynx cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:49,2 447 3 27 3,,,1534,12844,\N,0,\N
+63557,DALYs (Disability-Adjusted Life Years) - Gallbladder and biliary tract cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:50,2 453 3 27 3,,,1536,12846,\N,0,\N
+63570,DALYs (Disability-Adjusted Life Years) - Pancreatic cancer - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 15:28,4/24/19 0:50,2 456 3 27 3,,,1724,13034,\N,0,\N
+63606,Deaths - Diet low in fruits - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 111 3 26 1,,,1763,13073,\N,0,\N
+63609,Deaths - Diet low in vegetables - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 112 3 22 1,,,1764,13074,\N,0,\N
+63611,Deaths - Diet low in vegetables - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 112 3 24 1,,,1764,13074,\N,0,\N
+63613,Deaths - Diet low in vegetables - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 112 3 25 1,,,1764,13074,\N,0,\N
+63615,Deaths - Diet low in vegetables - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 112 3 26 1,,,1764,13074,\N,0,\N
+63867,Deaths - Unsafe sex - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 170 3 22 1,,,1772,13082,\N,0,\N
+63869,Deaths - Unsafe sex - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 170 3 23 1,,,1772,13082,\N,0,\N
+63871,Deaths - Unsafe sex - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 170 3 24 1,,,1772,13082,\N,0,\N
+63873,Deaths - Unsafe sex - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 170 3 25 1,,,1772,13082,\N,0,\N
+63875,Deaths - Unsafe sex - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 170 3 26 1,,,1772,13082,\N,0,\N
+63887,Deaths - No access to handwashing facility - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 1 1,,,1774,13084,\N,0,\N
+63889,Deaths - No access to handwashing facility - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 22 1,,,1774,13084,\N,0,\N
+63891,Deaths - No access to handwashing facility - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 23 1,,,1774,13084,\N,0,\N
+63893,Deaths - No access to handwashing facility - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 24 1,,,1774,13084,\N,0,\N
+63895,Deaths - No access to handwashing facility - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 25 1,,,1774,13084,\N,0,\N
+63897,Deaths - No access to handwashing facility - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 238 3 26 1,,,1774,13084,\N,0,\N
+63900,Deaths - Child wasting - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 240 3 1 1,,,1775,13085,\N,0,\N
+63902,Deaths - Child wasting - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 240 3 22 1,,,1775,13085,\N,0,\N
+63905,Deaths - Child stunting - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 241 3 1 1,,,1776,13086,\N,0,\N
+63907,Deaths - Child stunting - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 241 3 22 1,,,1776,13086,\N,0,\N
+63991,Deaths - Low physical activity - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:28,1 125 3 22 1,,,1796,13106,\N,0,\N
+63993,Deaths - Low physical activity - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:28,1 125 3 24 1,,,1796,13106,\N,0,\N
+63995,Deaths - Low physical activity - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:28,1 125 3 25 1,,,1796,13106,\N,0,\N
+63997,Deaths - Low physical activity - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:28,1 125 3 26 1,,,1796,13106,\N,0,\N
+64045,Deaths - Non-exclusive breastfeeding - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 136 3 1 1,,,1801,13111,\N,0,\N
+64047,Deaths - Non-exclusive breastfeeding - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 136 3 22 1,,,1801,13111,\N,0,\N
+64050,Deaths - Discontinued breastfeeding - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 137 3 1 1,,,1802,13112,\N,0,\N
+64052,Deaths - Discontinued breastfeeding - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:27,1 137 3 22 1,,,1802,13112,\N,0,\N
+64252,Deaths - Iron deficiency - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 95 3 22 1,,,1808,13118,\N,0,\N
+64254,Deaths - Iron deficiency - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 95 3 23 1,,,1808,13118,\N,0,\N
+64256,Deaths - Iron deficiency - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 95 3 24 1,,,1808,13118,\N,0,\N
+64258,Deaths - Iron deficiency - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 95 3 25 1,,,1808,13118,\N,0,\N
+64265,Deaths - Vitamin A deficiency - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 96 3 22 1,,,1809,13119,\N,0,\N
+64270,Deaths - Zinc deficiency - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 97 3 22 1,,,1810,13120,\N,0,\N
+64273,Deaths - Smoking - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 99 3 22 1,,,1811,13121,\N,0,\N
+64275,Deaths - Smoking - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 99 3 24 1,,,1811,13121,\N,0,\N
+64277,Deaths - Smoking - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 99 3 25 1,,,1811,13121,\N,0,\N
+64279,Deaths - Smoking - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 99 3 26 1,,,1811,13121,\N,0,\N
+64281,Deaths - Smoking - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 99 3 27 3,,,1811,13121,\N,0,\N
+64282,Deaths - Secondhand smoke - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:25,4/23/19 16:26,1 100 3 1 1,,,1812,13122,\N,0,\N
+64284,Deaths - Secondhand smoke - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 100 3 22 1,,,1812,13122,\N,0,\N
+64286,Deaths - Secondhand smoke - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 100 3 23 1,,,1812,13122,\N,0,\N
+64288,Deaths - Secondhand smoke - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 100 3 24 1,,,1812,13122,\N,0,\N
+64290,Deaths - Secondhand smoke - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 100 3 25 1,,,1812,13122,\N,0,\N
+64292,Deaths - Secondhand smoke - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 100 3 26 1,,,1812,13122,\N,0,\N
+64295,Deaths - Alcohol use - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 102 3 22 1,,,1813,13123,\N,0,\N
+64297,Deaths - Alcohol use - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 102 3 23 1,,,1813,13123,\N,0,\N
+64299,Deaths - Alcohol use - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 102 3 24 1,,,1813,13123,\N,0,\N
+64301,Deaths - Alcohol use - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 102 3 25 1,,,1813,13123,\N,0,\N
+64303,Deaths - Alcohol use - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 102 3 26 1,,,1813,13123,\N,0,\N
+64308,Deaths - Drug use - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 103 3 22 1,,,1814,13124,\N,0,\N
+64310,Deaths - Drug use - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 103 3 23 1,,,1814,13124,\N,0,\N
+64312,Deaths - Drug use - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 103 3 24 1,,,1814,13124,\N,0,\N
+64314,Deaths - Drug use - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 103 3 25 1,,,1814,13124,\N,0,\N
+64316,Deaths - Drug use - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 103 3 26 1,,,1814,13124,\N,0,\N
+64319,Deaths - High fasting plasma glucose - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 105 3 1 1,,,1803,13113,\N,0,\N
+64321,Deaths - High fasting plasma glucose - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 105 3 22 1,,,1803,13113,\N,0,\N
+64323,Deaths - High fasting plasma glucose - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 105 3 23 1,,,1803,13113,\N,0,\N
+64325,Deaths - High fasting plasma glucose - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 105 3 24 1,,,1803,13113,\N,0,\N
+64327,Deaths - High fasting plasma glucose - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 105 3 25 1,,,1803,13113,\N,0,\N
+64329,Deaths - High fasting plasma glucose - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 105 3 26 1,,,1803,13113,\N,0,\N
+64343,Deaths - High systolic blood pressure - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 107 3 22 1,,,1805,13115,\N,0,\N
+64345,Deaths - High systolic blood pressure - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 107 3 23 1,,,1805,13115,\N,0,\N
+64347,Deaths - High systolic blood pressure - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 107 3 24 1,,,1805,13115,\N,0,\N
+64349,Deaths - High systolic blood pressure - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 107 3 25 1,,,1805,13115,\N,0,\N
+64351,Deaths - High systolic blood pressure - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 107 3 26 1,,,1805,13115,\N,0,\N
+64354,Deaths - High body-mass index - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 1 1,,,1806,13116,\N,0,\N
+64356,Deaths - High body-mass index - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 22 1,,,1806,13116,\N,0,\N
+64358,Deaths - High body-mass index - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 23 1,,,1806,13116,\N,0,\N
+64360,Deaths - High body-mass index - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 24 1,,,1806,13116,\N,0,\N
+64362,Deaths - High body-mass index - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 25 1,,,1806,13116,\N,0,\N
+64364,Deaths - High body-mass index - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 108 3 26 1,,,1806,13116,\N,0,\N
+64367,Deaths - Low bone mineral density - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 109 3 22 1,,,1807,13117,\N,0,\N
+64369,Deaths - Low bone mineral density - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 109 3 24 1,,,1807,13117,\N,0,\N
+64371,Deaths - Low bone mineral density - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 109 3 25 1,,,1807,13117,\N,0,\N
+64373,Deaths - Low bone mineral density - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 109 3 26 1,,,1807,13117,\N,0,\N
+64376,Deaths - Diet low in fruits - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 111 3 22 1,,,1763,13073,\N,0,\N
+64378,Deaths - Diet low in fruits - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 111 3 24 1,,,1763,13073,\N,0,\N
+64380,Deaths - Diet low in fruits - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 111 3 25 1,,,1763,13073,\N,0,\N
+64419,DALYs (Disability-Adjusted Life Years) - Ambient particulate matter pollution - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:24,2 86 3 27 3,,,1817,13127,\N,0,\N
+64537,Deaths - Low birth weight for gestation - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 335 3 1 1,,,1826,13136,\N,0,\N
+64539,Deaths - Low birth weight for gestation - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 335 3 22 1,,,1826,13136,\N,0,\N
+64764,Deaths - Unsafe water source - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 1 1,,,1815,13125,\N,0,\N
+64766,Deaths - Unsafe water source - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 22 1,,,1815,13125,\N,0,\N
+64768,Deaths - Unsafe water source - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 23 1,,,1815,13125,\N,0,\N
+64770,Deaths - Unsafe water source - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 24 1,,,1815,13125,\N,0,\N
+64772,Deaths - Unsafe water source - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 25 1,,,1815,13125,\N,0,\N
+64774,Deaths - Unsafe water source - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 26 1,,,1815,13125,\N,0,\N
+64776,Deaths - Unsafe water source - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 83 3 27 3,,,1815,13125,\N,0,\N
+64777,Deaths - Unsafe sanitation - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 1 1,,,1816,13126,\N,0,\N
+64779,Deaths - Unsafe sanitation - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 22 1,,,1816,13126,\N,0,\N
+64781,Deaths - Unsafe sanitation - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 23 1,,,1816,13126,\N,0,\N
+64783,Deaths - Unsafe sanitation - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 24 1,,,1816,13126,\N,0,\N
+64785,Deaths - Unsafe sanitation - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 25 1,,,1816,13126,\N,0,\N
+64787,Deaths - Unsafe sanitation - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 26 1,,,1816,13126,\N,0,\N
+64789,Deaths - Unsafe sanitation - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 84 3 27 3,,,1816,13126,\N,0,\N
+64790,Deaths - Ambient particulate matter pollution - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 1 1,,,1817,13127,\N,0,\N
+64792,Deaths - Ambient particulate matter pollution - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 22 1,,,1817,13127,\N,0,\N
+64794,Deaths - Ambient particulate matter pollution - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 23 1,,,1817,13127,\N,0,\N
+64796,Deaths - Ambient particulate matter pollution - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 24 1,,,1817,13127,\N,0,\N
+64798,Deaths - Ambient particulate matter pollution - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 25 1,,,1817,13127,\N,0,\N
+64800,Deaths - Ambient particulate matter pollution - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 26 1,,,1817,13127,\N,0,\N
+64802,Deaths - Ambient particulate matter pollution - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 86 3 27 3,,,1817,13127,\N,0,\N
+64803,Deaths - Household air pollution from solid fuels - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 1 1,,,1818,13128,\N,0,\N
+64805,Deaths - Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 22 1,,,1818,13128,\N,0,\N
+64807,Deaths - Household air pollution from solid fuels - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 23 1,,,1818,13128,\N,0,\N
+64809,Deaths - Household air pollution from solid fuels - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 24 1,,,1818,13128,\N,0,\N
+64811,Deaths - Household air pollution from solid fuels - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 25 1,,,1818,13128,\N,0,\N
+64813,Deaths - Household air pollution from solid fuels - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 26 1,,,1818,13128,\N,0,\N
+64815,Deaths - Household air pollution from solid fuels - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 87 3 27 3,,,1818,13128,\N,0,\N
+64816,Deaths - Ambient ozone pollution - Sex: Both - Age: All Ages (Number),Number,numeric,\N,11/20/17 19:26,4/23/19 16:27,1 88 3 22 1,,,1819,13129,\N,0,\N
+64824,Deaths - Ambient ozone pollution - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,11/20/17 19:26,4/23/19 16:26,1 88 3 27 3,,,1819,13129,\N,0,\N
+66206,Primary enrolment data available at last cutoff (GEM Report (2017/18)),,binary,"Binary variable describing whether primary enrolment data, specifically total enrolment in primary education for the year ending 2015, was available in the SDG 4 monitoring tables (Global Monitoring Report 2018).",12/8/17 14:54,2/28/18 8:59,\N,Global by country,2017,1879,13887,\N,0,\N
+66287,Life expectancy,,numeric,Life expectancy at birth is defined as the average number of years that a newborn could expect to live if he or she were to pass through life subject to the age-specific mortality rates of a given period.,1/4/18 15:25,9/16/19 19:44,\N,,,1892,13901,\N,0,\N
+66850,15.1.2 - Proportion of important sites for terrestrial biodiversity that are covered by protected areas - ER_PTD_TERR,Percent,numeric,\N,2/7/18 21:14,2/28/18 8:59,\N,,,1993,13996,\N,0,\N
+67516,Deaths - Cirrhosis and other chronic liver diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:18,1 521 3 22 2,,,1550,12860,\N,0,\N
+67544,Deaths - Digestive diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:19,1 526 3 22 2,,,1555,12865,\N,0,\N
+67643,Deaths - Maternal disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:42,1 366 3 22 2,,,1621,12931,\N,0,\N
+67680,Deaths - Neonatal disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:45,1 380 3 22 2,,,1630,12940,\N,0,\N
+67692,Deaths - Nutritional deficiencies - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:56,1 386 3 22 2,,,1525,12835,\N,0,\N
+67698,Deaths - Protein-energy malnutrition - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:56,1 387 3 22 2,,,1526,12836,\N,0,\N
+67913,Deaths - Cardiovascular diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:02,1 491 3 22 2,,,1494,12804,\N,0,\N
+67987,Deaths - Chronic respiratory diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:15,1 508 3 22 2,,,1429,12739,\N,0,\N
+68055,"Deaths - Fire, heat, and hot substances - Sex: Both - Age: All Ages (Percent)",Percent,numeric,\N,2/9/18 17:10,4/24/19 1:37,1 699 3 22 2,,,1502,12812,\N,0,\N
+68069,Deaths - Drug use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:53,1 561 3 22 2,,,1591,12901,\N,0,\N
+68138,Deaths - Lower respiratory infections - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:25,1 322 3 22 2,,,1480,12790,\N,0,\N
+68156,Deaths - Meningitis - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:43,1 332 3 22 2,,,1483,12793,\N,0,\N
+68225,Deaths - Malaria - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:50,1 345 3 22 2,,,1607,12917,\N,0,\N
+68251,Deaths - Alzheimer disease and other dementias - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:47,1 543 3 22 2,,,1583,12893,\N,0,\N
+68257,Deaths - Parkinson disease - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:47,1 544 3 22 2,,,1584,12894,\N,0,\N
+68290,Deaths - Alcohol use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:53,1 560 3 22 2,,,1590,12900,\N,0,\N
+68317,Deaths - Road injuries - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:14,1 689 3 22 2,,,1540,12850,\N,0,\N
+68371,Deaths - Drowning - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:37,1 698 3 22 2,,,1577,12887,\N,0,\N
+68427,Deaths - Neoplasms - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:59,1 410 3 22 2,,,1715,13025,\N,0,\N
+68447,Deaths - Hepatitis - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:58,1 400 3 22 2,,,1711,13021,\N,0,\N
+68478,Deaths - Self-harm - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:48,1 718 3 22 2,,,1518,12828,\N,0,\N
+68494,Deaths - Interpersonal violence - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:49,1 724 3 22 2,,,1521,12831,\N,0,\N
+68524,Deaths - Exposure to forces of nature - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:50,1 729 3 22 2,,,1680,12990,\N,0,\N
+68534,Deaths - Environmental heat and cold exposure - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:50,1 842 3 22 2,,,1685,12995,\N,0,\N
+68552,Deaths - Tuberculosis - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:23,1 297 3 22 2,,,1466,12776,\N,0,\N
+68558,Deaths - HIV/AIDS - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:23,1 298 3 22 2,,,1467,12777,\N,0,\N
+68714,DALYs (Disability-Adjusted Life Years) - Unintentional injuries - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:54,2 696 3 22 2,,,1575,12885,\N,0,\N
+68870,DALYs (Disability-Adjusted Life Years) - Chronic respiratory diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:27,2 508 3 22 2,,,1429,12739,\N,0,\N
+69047,DALYs (Disability-Adjusted Life Years) - Self-harm - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:35,2 718 3 22 2,,,1518,12828,\N,0,\N
+69083,DALYs (Disability-Adjusted Life Years) - Digestive diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:33,2 526 3 22 2,,,1555,12865,\N,0,\N
+69218,DALYs (Disability-Adjusted Life Years) - Other non-communicable diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:39,2 640 3 22 2,,,1569,12879,\N,0,\N
+69356,DALYs (Disability-Adjusted Life Years) - Neglected tropical diseases and malaria - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:33,2 344 3 22 2,,,1606,12916,\N,0,\N
+69405,DALYs (Disability-Adjusted Life Years) - Maternal disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:16,2 366 3 22 2,,,1621,12931,\N,0,\N
+69430,DALYs (Disability-Adjusted Life Years) - Neonatal disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:20,2 380 3 22 2,,,1630,12940,\N,0,\N
+69466,DALYs (Disability-Adjusted Life Years) - Nutritional deficiencies - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:24,2 386 3 22 2,,,1525,12835,\N,0,\N
+69609,DALYs (Disability-Adjusted Life Years) - Cirrhosis and other chronic liver diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:30,2 521 3 22 2,,,1550,12860,\N,0,\N
+69663,DALYs (Disability-Adjusted Life Years) - Conflict and terrorism - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:41,2 945 3 22 2,,,1455,12765,\N,0,\N
+69845,DALYs (Disability-Adjusted Life Years) - Interpersonal violence - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:03,2 724 3 22 2,,,1521,12831,\N,0,\N
+69950,DALYs (Disability-Adjusted Life Years) - Exposure to forces of nature - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:05,2 729 3 22 2,,,1680,12990,\N,0,\N
+70027,DALYs (Disability-Adjusted Life Years) - Transport injuries - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 0:12,2 688 3 22 2,,,1539,12849,\N,0,\N
+70072,DALYs (Disability-Adjusted Life Years) - Neurological disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 1:28,2 542 3 22 2,,,1707,13017,\N,0,\N
+70126,DALYs (Disability-Adjusted Life Years) - Mental and substance use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:28,2 558 3 22 2,,,1589,12899,\N,0,\N
+70187,"DALYs (Disability-Adjusted Life Years) - Communicable, maternal, neonatal, and nutritional diseases - Sex: Both - Age: All Ages (Percent)",Percent,numeric,\N,2/9/18 17:10,4/24/19 0:43,2 295 3 22 2,,,1464,12774,\N,0,\N
+70305,DALYs (Disability-Adjusted Life Years) - Musculoskeletal disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:36,2 626 3 22 2,,,1648,12958,\N,0,\N
+70418,DALYs (Disability-Adjusted Life Years) - Non-communicable diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:39,2 409 3 22 2,,,1580,12890,\N,0,\N
+70461,DALYs (Disability-Adjusted Life Years) - Neoplasms - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:39,2 410 3 22 2,,,1715,13025,\N,0,\N
+70510,DALYs (Disability-Adjusted Life Years) - Cardiovascular diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:36,2 491 3 22 2,,,1494,12804,\N,0,\N
+70661,Deaths - Diarrheal diseases - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/23/19 23:24,1 302 3 22 2,,,1470,12780,\N,0,\N
+70670,Deaths - Diabetes mellitus - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:52,1 587 3 22 2,,,1634,12944,\N,0,\N
+70682,Deaths - Chronic kidney disease - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/9/18 17:10,4/24/19 2:20,1 589 3 22 2,,,1636,12946,\N,0,\N
+71287,Prevalence - Depressive disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:36,5 567 3 27 2,,,2102,14105,\N,0,\N
+73036,Prevalence - Alzheimer disease and other dementias - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 20:42,5 543 3 22 3,,,2192,14195,\N,0,\N
+73050,Prevalence - Alzheimer disease and other dementias - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 20:42,5 543 3 27 3,,,2192,14195,\N,0,\N
+73251,Prevalence - Multidrug-resistant tuberculosis without extensive drug resistance - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:49,5 946 3 22 1,,,2203,14206,\N,0,\N
+73271,Prevalence - Extensively drug-resistant tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:49,5 947 3 22 1,,,2204,14207,\N,0,\N
+73431,Prevalence - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 20:10,5 297 3 22 1,,,2212,14215,\N,0,\N
+73451,Prevalence - HIV/AIDS - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 20:11,5 298 3 22 1,,,2213,14216,\N,0,\N
+73458,Prevalence - HIV/AIDS - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 20:11,5 298 3 24 2,,,2213,14216,\N,0,\N
+73510,Prevalence - Diarrheal diseases - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 20:11,5 302 3 1 3,,,2216,14219,\N,0,\N
+73905,Prevalence - Down syndrome - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 19:23,5 645 3 27 2,,,2236,14239,\N,0,\N
+74033,Prevalence - Gallbladder and biliary tract cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:30,5 453 3 22 1,,,2244,14247,\N,0,\N
+74048,Prevalence - Gallbladder and biliary tract cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:30,5 453 3 27 2,,,2244,14247,\N,0,\N
+74053,Prevalence - Pancreatic cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:30,5 456 3 22 1,,,2245,14248,\N,0,\N
+74068,Prevalence - Pancreatic cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:31,5 456 3 27 2,,,2245,14248,\N,0,\N
+74093,Prevalence - Non-melanoma skin cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:31,5 462 3 22 1,,,2247,14250,\N,0,\N
+74108,Prevalence - Non-melanoma skin cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:31,5 462 3 27 2,,,2247,14250,\N,0,\N
+74113,Prevalence - Ovarian cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:31,5 465 3 22 1,,,2248,14251,\N,0,\N
+74128,Prevalence - Ovarian cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 465 3 27 2,,,2248,14251,\N,0,\N
+74133,Prevalence - Testicular cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 468 3 22 1,,,2249,14252,\N,0,\N
+74148,Prevalence - Testicular cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 468 3 27 2,,,2249,14252,\N,0,\N
+74153,Prevalence - Kidney cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 471 3 22 1,,,2250,14253,\N,0,\N
+74168,Prevalence - Kidney cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 471 3 27 2,,,2250,14253,\N,0,\N
+74173,Prevalence - Bladder cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 474 3 22 1,,,2251,14254,\N,0,\N
+74188,Prevalence - Bladder cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:32,5 474 3 27 2,,,2251,14254,\N,0,\N
+74193,Prevalence - Brain and nervous system cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:33,5 477 3 22 1,,,2252,14255,\N,0,\N
+74208,Prevalence - Brain and nervous system cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:33,5 477 3 27 2,,,2252,14255,\N,0,\N
+74213,Prevalence - Thyroid cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:33,5 480 3 22 1,,,2253,14256,\N,0,\N
+74228,Prevalence - Thyroid cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:33,5 480 3 27 2,,,2253,14256,\N,0,\N
+74984,Prevalence - Trachoma - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 20:44,5 356 3 27 3,,,2290,14293,\N,0,\N
+75028,Prevalence - Rabies - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 19:40,5 359 3 22 1,,,2293,14296,\N,0,\N
+75429,Prevalence - Tetanus - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:53,5 340 3 22 1,,,2314,14317,\N,0,\N
+75448,Prevalence - Measles - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 18:54,5 341 3 1 3,,,2315,14318,\N,0,\N
+75596,Prevalence - Malaria - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 18:55,5 345 3 27 2,,,2321,14324,\N,0,\N
+75699,Prevalence - Asthma - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:37,4/23/19 19:30,5 515 3 27 2,,,2326,14329,\N,0,\N
+76525,Incidence - Multidrug-resistant tuberculosis without extensive drug resistance - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 20:37,6 946 3 22 1,,,2203,14206,\N,0,\N
+76545,Incidence - Extensively drug-resistant tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 20:37,6 947 3 22 1,,,2204,14207,\N,0,\N
+77397,Incidence - Venomous animal contact - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 20:47,6 710 3 27 3,,,2351,14354,\N,0,\N
+77424,Incidence - Tetanus - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 18:28,6 340 3 22 1,,,2314,14317,\N,0,\N
+77426,Incidence - Tetanus - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 18:28,6 340 3 22 3,,,2314,14317,\N,0,\N
+77504,Incidence - Malaria - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:37,4/23/19 19:50,6 345 3 22 1,,,2321,14324,\N,0,\N
+77506,Incidence - Malaria - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,2/11/18 8:37,4/23/19 19:50,6 345 3 22 3,,,2321,14324,\N,0,\N
+79992,Prevalence - Larynx cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:01,5 423 3 22 1,,,2367,14370,\N,0,\N
+80007,Prevalence - Larynx cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:01,5 423 3 27 2,,,2367,14370,\N,0,\N
+80012,"Prevalence - Tracheal, bronchus, and lung cancer - Sex: Both - Age: All Ages (Number)",Number,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 426 3 22 1,,,2368,14371,\N,0,\N
+80027,"Prevalence - Tracheal, bronchus, and lung cancer - Sex: Both - Age: Age-standardized (Percent)",Percent,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 426 3 27 2,,,2368,14371,\N,0,\N
+80032,Prevalence - Breast cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 429 3 22 1,,,2369,14372,\N,0,\N
+80047,Prevalence - Breast cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 429 3 27 2,,,2369,14372,\N,0,\N
+80052,Prevalence - Cervical cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 432 3 22 1,,,2370,14373,\N,0,\N
+80067,Prevalence - Cervical cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:02,5 432 3 27 2,,,2370,14373,\N,0,\N
+80072,Prevalence - Uterine cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:03,5 435 3 22 1,,,2371,14374,\N,0,\N
+80087,Prevalence - Uterine cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:03,5 435 3 27 2,,,2371,14374,\N,0,\N
+80092,Prevalence - Prostate cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:03,5 438 3 22 1,,,2372,14375,\N,0,\N
+80107,Prevalence - Prostate cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:03,5 438 3 27 2,,,2372,14375,\N,0,\N
+80112,Prevalence - Colon and rectum cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:03,5 441 3 22 1,,,2373,14376,\N,0,\N
+80127,Prevalence - Colon and rectum cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:04,5 441 3 27 2,,,2373,14376,\N,0,\N
+80132,Prevalence - Lip and oral cavity cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:29,5 444 3 22 1,,,2374,14377,\N,0,\N
+80147,Prevalence - Lip and oral cavity cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:30,5 444 3 27 2,,,2374,14377,\N,0,\N
+80152,Prevalence - Nasopharynx cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:30,5 447 3 22 1,,,2375,14378,\N,0,\N
+80167,Prevalence - Nasopharynx cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:30,5 447 3 27 2,,,2375,14378,\N,0,\N
+80952,Incidence - Tuberculosis - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 17:46,6 297 3 22 1,,,2212,14215,\N,0,\N
+80972,Incidence - HIV/AIDS - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 17:46,6 298 3 22 1,,,2213,14216,\N,0,\N
+80974,Incidence - HIV/AIDS - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,2/11/18 8:38,4/23/19 17:46,6 298 3 22 3,,,2213,14216,\N,0,\N
+81557,Incidence - Rabies - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:16,6 359 3 22 1,,,2293,14296,\N,0,\N
+81781,Incidence - Hepatitis B - Sex: Both - Age: All Ages (Rate),Rate,numeric,\N,2/11/18 8:38,4/23/19 20:34,6 402 3 22 3,,,2390,14393,\N,0,\N
+82138,Prevalence - Esophageal cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 411 3 22 1,,,2393,14396,\N,0,\N
+82153,Prevalence - Esophageal cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 411 3 27 2,,,2393,14396,\N,0,\N
+82158,Prevalence - Stomach cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 414 3 22 1,,,2175,14178,\N,0,\N
+82168,Prevalence - Stomach cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 414 3 27 2,,,2175,14178,\N,0,\N
+82173,Prevalence - Liver cancer - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 19:00,5 417 3 22 1,,,2394,14397,\N,0,\N
+82188,Prevalence - Liver cancer - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 19:00,5 417 3 27 2,,,2394,14397,\N,0,\N
+82373,Prevalence - Neoplasms - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 1 1,,,2398,14401,\N,0,\N
+82374,Prevalence - Neoplasms - Sex: Both - Age: Under 5 (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 1 2,,,2398,14401,\N,0,\N
+82496,Prevalence - Neoplasms - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 22 1,,,2398,14401,\N,0,\N
+82497,Prevalence - Neoplasms - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 22 2,,,2398,14401,\N,0,\N
+82499,Prevalence - Neoplasms - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 23 1,,,2398,14401,\N,0,\N
+82500,Prevalence - Neoplasms - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 23 2,,,2398,14401,\N,0,\N
+82502,Prevalence - Neoplasms - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 24 1,,,2398,14401,\N,0,\N
+82503,Prevalence - Neoplasms - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 24 2,,,2398,14401,\N,0,\N
+82505,Prevalence - Neoplasms - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 25 1,,,2398,14401,\N,0,\N
+82506,Prevalence - Neoplasms - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 25 2,,,2398,14401,\N,0,\N
+82508,Prevalence - Neoplasms - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 26 1,,,2398,14401,\N,0,\N
+82509,Prevalence - Neoplasms - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 26 2,,,2398,14401,\N,0,\N
+82511,Prevalence - Neoplasms - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 8:38,4/23/19 18:59,5 410 3 27 2,,,2398,14401,\N,0,\N
+82612,Incidence - Neoplasms - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 8:38,4/23/19 19:54,6 410 3 27 3,,,2398,14401,\N,0,\N
+82876,Prevalence - Conduct disorder - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:09,5 579 3 22 1,,,2401,14404,\N,0,\N
+82979,Prevalence - Idiopathic developmental intellectual disability - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 1 22 1,,,2402,14405,\N,0,\N
+82980,Prevalence - Idiopathic developmental intellectual disability - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 2 22 1,,,2402,14405,\N,0,\N
+82981,Prevalence - Idiopathic developmental intellectual disability - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 3 22 1,,,2402,14405,\N,0,\N
+83024,Prevalence - Idiopathic developmental intellectual disability - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 1 27 2,,,2402,14405,\N,0,\N
+83025,Prevalence - Idiopathic developmental intellectual disability - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 2 27 2,,,2402,14405,\N,0,\N
+83026,Prevalence - Idiopathic developmental intellectual disability - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:11,5 582 3 27 2,,,2402,14405,\N,0,\N
+83086,Prevalence - Other mental and substance use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:12,5 585 3 22 1,,,2403,14406,\N,0,\N
+83154,Prevalence - Autistic spectrum disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 575 1 27 2,,,2404,14407,\N,0,\N
+83155,Prevalence - Autistic spectrum disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 575 2 27 2,,,2404,14407,\N,0,\N
+83156,Prevalence - Autistic spectrum disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 575 3 27 2,,,2404,14407,\N,0,\N
+83424,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 578 1 22 1,,,2407,14410,\N,0,\N
+83425,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 578 2 22 1,,,2407,14410,\N,0,\N
+83426,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:07,5 578 3 22 1,,,2407,14410,\N,0,\N
+83469,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:08,5 578 1 27 2,,,2407,14410,\N,0,\N
+83470,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:08,5 578 2 27 2,,,2407,14410,\N,0,\N
+83471,Prevalence - Attention-deficit/hyperactivity disorder - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:08,5 578 3 27 2,,,2407,14410,\N,0,\N
+83516,Prevalence - Alcohol use disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 560 3 11 2,,,2408,14411,\N,0,\N
+83520,Prevalence - Alcohol use disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:13,5 560 1 22 1,,,2408,14411,\N,0,\N
+83521,Prevalence - Alcohol use disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:13,5 560 2 22 1,,,2408,14411,\N,0,\N
+83522,Prevalence - Alcohol use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:13,5 560 3 22 1,,,2408,14411,\N,0,\N
+83525,Prevalence - Alcohol use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:13,5 560 3 22 2,,,2408,14411,\N,0,\N
+83534,Prevalence - Alcohol use disorders - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:13,5 560 3 23 2,,,2408,14411,\N,0,\N
+83543,Prevalence - Alcohol use disorders - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 3 24 2,,,2408,14411,\N,0,\N
+83552,Prevalence - Alcohol use disorders - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 3 25 2,,,2408,14411,\N,0,\N
+83561,Prevalence - Alcohol use disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 3 26 2,,,2408,14411,\N,0,\N
+83565,Prevalence - Alcohol use disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 1 27 2,,,2408,14411,\N,0,\N
+83566,Prevalence - Alcohol use disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 2 27 2,,,2408,14411,\N,0,\N
+83567,Prevalence - Alcohol use disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 560 3 27 2,,,2408,14411,\N,0,\N
+83585,Prevalence - Drug use disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 561 3 7 2,,,2409,14412,\N,0,\N
+83594,Prevalence - Drug use disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 561 3 8 2,,,2409,14412,\N,0,\N
+83603,Prevalence - Drug use disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 561 3 9 2,,,2409,14412,\N,0,\N
+83612,Prevalence - Drug use disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:14,5 561 3 10 2,,,2409,14412,\N,0,\N
+83621,Prevalence - Drug use disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 11 2,,,2409,14412,\N,0,\N
+83625,Prevalence - Drug use disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 1 22 1,,,2409,14412,\N,0,\N
+83626,Prevalence - Drug use disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 2 22 1,,,2409,14412,\N,0,\N
+83627,Prevalence - Drug use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 22 1,,,2409,14412,\N,0,\N
+83630,Prevalence - Drug use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 22 2,,,2409,14412,\N,0,\N
+83637,Prevalence - Drug use disorders - Sex: Male - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 1 23 2,,,2409,14412,\N,0,\N
+83648,Prevalence - Drug use disorders - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 24 2,,,2409,14412,\N,0,\N
+83666,Prevalence - Drug use disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 26 2,,,2409,14412,\N,0,\N
+83670,Prevalence - Drug use disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 1 27 2,,,2409,14412,\N,0,\N
+83671,Prevalence - Drug use disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 2 27 2,,,2409,14412,\N,0,\N
+83672,Prevalence - Drug use disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:15,5 561 3 27 2,,,2409,14412,\N,0,\N
+83732,Prevalence - Opioid use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:45,5 562 3 22 1,,,2410,14413,\N,0,\N
+83837,Prevalence - Cocaine use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:47,5 563 3 22 1,,,2411,14414,\N,0,\N
+83942,Prevalence - Amphetamine use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:49,5 564 3 22 1,,,2412,14415,\N,0,\N
+84047,Prevalence - Cannabis use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:50,5 565 3 22 1,,,2413,14416,\N,0,\N
+84152,Prevalence - Other drug use disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:52,5 566 3 22 1,,,2414,14417,\N,0,\N
+84215,Prevalence - Depressive disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 7 2,,,2415,14418,\N,0,\N
+84224,Prevalence - Depressive disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 8 2,,,2415,14418,\N,0,\N
+84233,Prevalence - Depressive disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 9 2,,,2415,14418,\N,0,\N
+84242,Prevalence - Depressive disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 10 2,,,2415,14418,\N,0,\N
+84251,Prevalence - Depressive disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 11 2,,,2415,14418,\N,0,\N
+84255,Prevalence - Depressive disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 1 22 1,,,2415,14418,\N,0,\N
+84256,Prevalence - Depressive disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 2 22 1,,,2415,14418,\N,0,\N
+84257,Prevalence - Depressive disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 22 1,,,2415,14418,\N,0,\N
+84260,Prevalence - Depressive disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:53,5 567 3 22 2,,,2415,14418,\N,0,\N
+84278,Prevalence - Depressive disorders - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 3 24 2,,,2415,14418,\N,0,\N
+84287,Prevalence - Depressive disorders - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 3 25 2,,,2415,14418,\N,0,\N
+84296,Prevalence - Depressive disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 3 26 2,,,2415,14418,\N,0,\N
+84300,Prevalence - Depressive disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 1 27 2,,,2415,14418,\N,0,\N
+84301,Prevalence - Depressive disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 2 27 2,,,2415,14418,\N,0,\N
+84302,Prevalence - Depressive disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 3 27 2,,,2415,14418,\N,0,\N
+84305,Prevalence - Depressive disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 13:51,4/23/19 16:54,5 567 3 27 3,,,2415,14418,\N,0,\N
+84530,Prevalence - Bipolar disorder - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:57,5 570 3 7 2,,,2418,14421,\N,0,\N
+84548,Prevalence - Bipolar disorder - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 9 2,,,2418,14421,\N,0,\N
+84557,Prevalence - Bipolar disorder - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 10 2,,,2418,14421,\N,0,\N
+84566,Prevalence - Bipolar disorder - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 11 2,,,2418,14421,\N,0,\N
+84570,Prevalence - Bipolar disorder - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 1 22 1,,,2418,14421,\N,0,\N
+84571,Prevalence - Bipolar disorder - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 2 22 1,,,2418,14421,\N,0,\N
+84572,Prevalence - Bipolar disorder - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 22 1,,,2418,14421,\N,0,\N
+84575,Prevalence - Bipolar disorder - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 22 2,,,2418,14421,\N,0,\N
+84584,Prevalence - Bipolar disorder - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 23 2,,,2418,14421,\N,0,\N
+84593,Prevalence - Bipolar disorder - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 24 2,,,2418,14421,\N,0,\N
+84602,Prevalence - Bipolar disorder - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 25 2,,,2418,14421,\N,0,\N
+84611,Prevalence - Bipolar disorder - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:58,5 570 3 26 2,,,2418,14421,\N,0,\N
+84615,Prevalence - Bipolar disorder - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 570 1 27 2,,,2418,14421,\N,0,\N
+84616,Prevalence - Bipolar disorder - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 570 2 27 2,,,2418,14421,\N,0,\N
+84617,Prevalence - Bipolar disorder - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 570 3 27 2,,,2418,14421,\N,0,\N
+84626,Prevalence - Anxiety disorders - Sex: Both - Age: Under 5 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 1 2,,,2419,14422,\N,0,\N
+84635,Prevalence - Anxiety disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 7 2,,,2419,14422,\N,0,\N
+84644,Prevalence - Anxiety disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 8 2,,,2419,14422,\N,0,\N
+84653,Prevalence - Anxiety disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 9 2,,,2419,14422,\N,0,\N
+84662,Prevalence - Anxiety disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 10 2,,,2419,14422,\N,0,\N
+84671,Prevalence - Anxiety disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 11 2,,,2419,14422,\N,0,\N
+84675,Prevalence - Anxiety disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 1 22 1,,,2419,14422,\N,0,\N
+84676,Prevalence - Anxiety disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 2 22 1,,,2419,14422,\N,0,\N
+84677,Prevalence - Anxiety disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 22 1,,,2419,14422,\N,0,\N
+84680,Prevalence - Anxiety disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 16:59,5 571 3 22 2,,,2419,14422,\N,0,\N
+84689,Prevalence - Anxiety disorders - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 3 23 2,,,2419,14422,\N,0,\N
+84698,Prevalence - Anxiety disorders - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 3 24 2,,,2419,14422,\N,0,\N
+84707,Prevalence - Anxiety disorders - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 3 25 2,,,2419,14422,\N,0,\N
+84716,Prevalence - Anxiety disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 3 26 2,,,2419,14422,\N,0,\N
+84720,Prevalence - Anxiety disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 1 27 2,,,2419,14422,\N,0,\N
+84721,Prevalence - Anxiety disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 2 27 2,,,2419,14422,\N,0,\N
+84722,Prevalence - Anxiety disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 571 3 27 2,,,2419,14422,\N,0,\N
+84740,Prevalence - Eating disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:00,5 572 3 7 2,,,2420,14423,\N,0,\N
+84749,Prevalence - Eating disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 8 2,,,2420,14423,\N,0,\N
+84758,Prevalence - Eating disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 9 2,,,2420,14423,\N,0,\N
+84767,Prevalence - Eating disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 10 2,,,2420,14423,\N,0,\N
+84776,Prevalence - Eating disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 11 2,,,2420,14423,\N,0,\N
+84780,Prevalence - Eating disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 1 22 1,,,2420,14423,\N,0,\N
+84781,Prevalence - Eating disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 2 22 1,,,2420,14423,\N,0,\N
+84782,Prevalence - Eating disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 22 1,,,2420,14423,\N,0,\N
+84785,Prevalence - Eating disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 22 2,,,2420,14423,\N,0,\N
+84794,Prevalence - Eating disorders - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 23 2,,,2420,14423,\N,0,\N
+84812,Prevalence - Eating disorders - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:01,5 572 3 25 2,,,2420,14423,\N,0,\N
+84821,Prevalence - Eating disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:02,5 572 3 26 2,,,2420,14423,\N,0,\N
+84825,Prevalence - Eating disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:02,5 572 1 27 2,,,2420,14423,\N,0,\N
+84826,Prevalence - Eating disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:02,5 572 2 27 2,,,2420,14423,\N,0,\N
+84827,Prevalence - Eating disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:02,5 572 3 27 2,,,2420,14423,\N,0,\N
+84887,Prevalence - Anorexia nervosa - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:03,5 573 3 22 1,,,2421,14424,\N,0,\N
+84992,Prevalence - Bulimia nervosa - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:04,5 574 3 22 1,,,2422,14425,\N,0,\N
+85095,Prevalence - Autistic spectrum disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:06,5 575 1 22 1,,,2404,14407,\N,0,\N
+85096,Prevalence - Autistic spectrum disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:06,5 575 2 22 1,,,2404,14407,\N,0,\N
+85097,Prevalence - Autistic spectrum disorders - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:06,5 575 3 22 1,,,2404,14407,\N,0,\N
+85135,Prevalence - Mental and substance use disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 3 7 2,,,2423,14426,\N,0,\N
+85144,Prevalence - Mental and substance use disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 3 8 2,,,2423,14426,\N,0,\N
+85153,Prevalence - Mental and substance use disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 3 9 2,,,2423,14426,\N,0,\N
+85162,Prevalence - Mental and substance use disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 3 10 2,,,2423,14426,\N,0,\N
+85171,Prevalence - Mental and substance use disorders - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 3 11 2,,,2423,14426,\N,0,\N
+85175,Prevalence - Mental and substance use disorders - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 1 22 1,,,2423,14426,\N,0,\N
+85176,Prevalence - Mental and substance use disorders - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:16,5 558 2 22 1,,,2423,14426,\N,0,\N
+85180,Prevalence - Mental and substance use disorders - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 22 2,,,2423,14426,\N,0,\N
+85189,Prevalence - Mental and substance use disorders - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 23 2,,,2423,14426,\N,0,\N
+85198,Prevalence - Mental and substance use disorders - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 24 2,,,2423,14426,\N,0,\N
+85207,Prevalence - Mental and substance use disorders - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 25 2,,,2423,14426,\N,0,\N
+85216,Prevalence - Mental and substance use disorders - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 26 2,,,2423,14426,\N,0,\N
+85220,Prevalence - Mental and substance use disorders - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 1 27 2,,,2423,14426,\N,0,\N
+85221,Prevalence - Mental and substance use disorders - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 2 27 2,,,2423,14426,\N,0,\N
+85222,Prevalence - Mental and substance use disorders - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 27 2,,,2423,14426,\N,0,\N
+85225,Prevalence - Mental and substance use disorders - Sex: Both - Age: Age-standardized (Rate),Rate,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 558 3 27 3,,,2423,14426,\N,0,\N
+85240,Prevalence - Schizophrenia - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 559 3 7 2,,,2424,14427,\N,0,\N
+85249,Prevalence - Schizophrenia - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:17,5 559 3 8 2,,,2424,14427,\N,0,\N
+85258,Prevalence - Schizophrenia - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 9 2,,,2424,14427,\N,0,\N
+85267,Prevalence - Schizophrenia - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 10 2,,,2424,14427,\N,0,\N
+85276,Prevalence - Schizophrenia - Sex: Both - Age: 30 to 34 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 11 2,,,2424,14427,\N,0,\N
+85280,Prevalence - Schizophrenia - Sex: Male - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 1 22 1,,,2424,14427,\N,0,\N
+85281,Prevalence - Schizophrenia - Sex: Female - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 2 22 1,,,2424,14427,\N,0,\N
+85282,Prevalence - Schizophrenia - Sex: Both - Age: All Ages (Number),Number,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 22 1,,,2424,14427,\N,0,\N
+85285,Prevalence - Schizophrenia - Sex: Both - Age: All Ages (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 22 2,,,2424,14427,\N,0,\N
+85294,Prevalence - Schizophrenia - Sex: Both - Age: 5-14 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 23 2,,,2424,14427,\N,0,\N
+85303,Prevalence - Schizophrenia - Sex: Both - Age: 15-49 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 24 2,,,2424,14427,\N,0,\N
+85312,Prevalence - Schizophrenia - Sex: Both - Age: 50-69 years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 25 2,,,2424,14427,\N,0,\N
+85321,Prevalence - Schizophrenia - Sex: Both - Age: 70+ years (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 3 26 2,,,2424,14427,\N,0,\N
+85325,Prevalence - Schizophrenia - Sex: Male - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 1 27 2,,,2424,14427,\N,0,\N
+85326,Prevalence - Schizophrenia - Sex: Female - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:18,5 559 2 27 2,,,2424,14427,\N,0,\N
+85327,Prevalence - Schizophrenia - Sex: Both - Age: Age-standardized (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 559 3 27 2,,,2424,14427,\N,0,\N
+85345,Prevalence - Alcohol use disorders - Sex: Both - Age: 10 to 14 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 560 3 7 2,,,2408,14411,\N,0,\N
+85354,Prevalence - Alcohol use disorders - Sex: Both - Age: 15 to 19 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 560 3 8 2,,,2408,14411,\N,0,\N
+85363,Prevalence - Alcohol use disorders - Sex: Both - Age: 20 to 24 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 560 3 9 2,,,2408,14411,\N,0,\N
+85372,Prevalence - Alcohol use disorders - Sex: Both - Age: 25 to 29 (Percent),Percent,numeric,\N,2/11/18 13:51,4/23/19 17:19,5 560 3 10 2,,,2408,14411,\N,0,\N
+85864,Per capita CO2 emissions (Global Carbon Project; Gapminder; UN),tonnes per capita,numeric,"Annual emissions of carbon dioxide (CO₂) per person, based on territorial emissions (i.e. estimates not corrected for trade).",3/7/18 11:18,7/19/19 16:25,\N,global by country,,2493,14712,\N,0,\N
+97667,Legality status of abortion,,category,,7/16/18 11:53,7/16/18 11:59,\N,,,2836,15567,\N,0,\N
+97865,Urban population (%) long-run with 2050 projections (OWID),%,numeric,Share of the population living in urban areas.,8/22/18 10:02,8/22/18 14:45,\N,,,2887,15615,\N,0,\N
+97866,Rural population (%) long-run with 2050 projections (OWID),%,numeric,Share of the population living in rural areas.,8/22/18 10:02,8/22/18 14:45,\N,,,2887,15615,\N,0,\N
+97867,Urban population long-run with 2050 projections (OWID),,numeric,The total urban population. ,8/22/18 10:02,8/22/18 14:45,\N,,,2887,15615,\N,0,\N
+97868,Rural population long-run with 2050 projections (OWID),,numeric,The total rural population. ,8/22/18 10:02,8/22/18 14:45,\N,,,2887,15615,\N,0,\N
+98035,SSP2 (number of people in extreme poverty),people in extreme poverty,numeric,,9/17/18 10:46,9/18/18 12:16,\N,global by country and region,2015-2031,2951,15672,\N,0,\N
+98242,Regimes of the world -- the RoW measure,,category,How can the political regime overall be classified considering the competitiveness of access to power (polyarchy) as well as liberal principles?,10/3/18 13:26,10/3/18 13:26,v2x_regime,,,3073,15738,\N,11,0: Closed autocracy: No multiparty elections for the chief executive or the legislature. 1: Electoral autocracy: De-jure multiparty elections for the chief executive and the legislature but failing to achieve that elections are free and fair or de-facto multiparty or a minimum level of Dahl's institutional prerequisites of polyarchy as measured by V-Dem's Electoral Democracy Index (v2x_polyarchy). 2: Electoral democracy: De-facto free and fair multiparty elections and a minimum level of Dahl's institutional prerequisites for polyarchy as measured by V- Dem's Electoral Democracy Index (v2x_polyarchy) but either  access to justice or transparent law enforcement or liberal principles of respect for personal liberties rule of law  and judicial as well as legislative constraints on the executive not satisfied as measured by V-Dem's Liberal Component Index (v2x_liberal). 3: Liberal democracy: De-facto free and fair multiparty elections and a minimum level of Dahl's institutional prerequisites for polyarchy as measured by V- Dem's Electoral Democracy Index (v2x_polyarchy) are guaranteed as well as access to justice transparent law enforcement and the liberal principles of respect for personal liberties  rule of law and judicial as well as legislative constraints on the executive satisfied as measured by V-Dem's Liberal Component Index (v2x_liberal).
+98383,Liberal democracy index,,numeric,To what extent is the ideal of liberal democracy achieved?,10/3/18 13:26,10/3/18 13:26,v2x_libdem,,,3073,15879,\N,152,
+98702,Elected officials index,,category,Is the chief executive and legislature appointed through popular elections?,10/3/18 13:26,10/3/18 13:26,v2x_elecoff,,,3073,16198,\N,471,
+99322,Sex ratio at birth (male births per female births),male births per female births,numeric,Sex ratio at birth refers to male births per female births. The data are 5 year averages.,12/11/18 20:12,12/11/18 20:12,SP.POP.BRTH.MF,,1960-2017,563,16650,male births,0,\N
+99627,Sex ratio at birth (Chao et al. 2019),,numeric,"Sex ratio at birth, measured as the number of male births per 100 female births. Birth ratios are slightly male-biased, with an expected biological ratio of 105 male per 100 female births.\
+",4/16/19 18:06,4/16/19 18:13,\N,,,3271,16775,\N,0,\N
+100040,Deaths - Air pollution - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 1 1,,,3288,16780,Number,0,\N
+100042,Deaths - Air pollution - Sex: Both - Age: All Ages (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 22 1,,,3288,16780,Number,0,\N
+100044,Deaths - Air pollution - Sex: Both - Age: 5-14 years (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 23 1,,,3288,16780,Number,0,\N
+100046,Deaths - Air pollution - Sex: Both - Age: 15-49 years (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 24 1,,,3288,16780,Number,0,\N
+100048,Deaths - Air pollution - Sex: Both - Age: 50-69 years (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 25 1,,,3288,16780,Number,0,\N
+100050,Deaths - Air pollution - Sex: Both - Age: 70+ years (Number),Number,numeric,\N,4/23/19 16:27,4/23/19 16:27,1 85 3 26 1,,,3288,16780,Number,0,\N
+101678,Incidence - Neonatal preterm birth - Sex: Both - Age: Under 5 (Rate),Rate,numeric,\N,4/23/19 19:59,4/23/19 19:59,6 381 3 1 3,,,3645,16848,Rate,0,\N
+103764,Deaths - Invasive Non-typhoidal Salmonella (iNTS) - Sex: Both - Age: Under 5 (Number),Number,numeric,\N,4/24/19 1:56,4/24/19 1:56,1 959 3 1 1,,,3970,16901,Number,0,\N
+104361,First 28 days (number of deaths),,numeric,The total number of deaths of newborns within the first 28 days of life.,5/10/19 11:56,5/10/19 12:01,\N,,,4117,16946,\N,0,\N
+104362,29 days - 1 year (number of deaths),,numeric,"The total number of deaths of children who die following the first month (28 days) of life, up until one year of age.",5/10/19 11:56,5/10/19 12:02,\N,,,4117,16946,\N,0,\N
+104363,1-4 years (number of deaths),,numeric,The total number of child deaths between the age of 1 to their 5th birthday (i.e. 1-4 year olds).,5/10/19 11:56,5/10/19 12:03,\N,,,4117,16946,\N,0,\N
+104364,Press Freedom Score,,numeric,"The degree of freedom available to journalists is determined by pooling the responses of experts to a questionnaire devised by RSF. This qualitative analysis is combined with quantitative data on abuses and acts of violence against journalists during the period evaluated. The criteria evaluated in the questionnaire are pluralism, media independence, media environment and self-censorship, legislative framework, transparency, and the quality of the infrastructure that supports the production of news and information. ",5/13/19 11:13,5/13/19 11:34,\N,,,4118,16947,\N,0,\N
+104402,"Child mortality 1950-2017 (IHME, 2017)",,numeric,Child mortality is the share of newborns who die before reaching the age of five. ,5/21/19 4:48,8/14/19 13:16,\N,,,4123,16952,\N,0,\N
+104417,"Average Total Years of Schooling for Adult Population (Lee-Lee (2016), Barro-Lee (2018) and UNDP (2018))",,numeric,Mean years of total schooling across all education levels.,5/24/19 11:38,5/29/19 15:18,\N,,,4129,16958,\N,0,\N
+104447,Political Regime,,category,\N,6/5/19 9:31,6/5/19 9:31,\N,,,4136,16965,\N,0,\N
+104454,Youth mortality rate (UN IGME (2018)),,numeric,Youth mortality rate is the share of newborns who die before reaching the age of 15.,6/6/19 15:07,6/6/19 16:27,\N,,,4140,16968,\N,0,\N
+104467,Expected Years of Schooling (years),,numeric,The number of years of schooling that a child of school entrance age can expect to receive if prevailing patterns of age-specific enrollment rates persist throughout the child’s life.,6/17/19 11:31,6/17/19 13:27,\N,,,4151,16979,\N,0,\N
+104490,"Population by country and region, historic and projections (Gapminder, HYDE & UN)",,numeric,"Population by country, available from 1800 to 2100 based on Gapminder data, HYDE, and UN Population Division (2019) medium variant scenario projections.",7/1/19 19:57,9/13/19 12:25,\N,,,70,301,\N,0,\N
+104516,Share of global CO2 emissions (Global Carbon Project & CDIAC (2019)),,numeric,Annual territorial emissions of carbon dioxide (CO₂) from fossil fuels and cement as a share of the global total. ,7/18/19 15:15,8/19/19 15:03,\N,,,1041,6896,\N,0,\N
+104517,Share of global cumulative CO2 emissions (OWID based on CDIAC & GCP (2018),,numeric,"Cumulative carbon dioxide (CO₂) emissions is the total quantity of CO₂ emissions emitted from 1751 until a given year, measured in tonnes. This is based on territorial emissions, which do not account for emissions embedded in traded goods. This is given as each country or region's share of the global total.",7/19/19 9:34,7/19/19 9:36,\N,,,445,567,\N,0,\N
+104536,Direct conflict deaths,,numeric,"Direct conflict deaths (i.e. excluding indirect deaths from disease, malnutrition, exposure etc.) of both civilians and military personnel occurring within the territory of the country.",7/31/19 10:57,9/10/19 11:36,\N,,,4176,17004,\N,0,\N
+104537,Direct conflict death rate,,numeric,"Direct conflict deaths (i.e. excluding indirect deaths from disease, malnutrition, exposure etc.) of both civilians and military personnel occurring within the territory of the country, per 100,000 of population.",7/31/19 10:57,9/10/19 11:36,\N,,,4176,17004,\N,0,\N
+104672, Deaths - Ambient particulate matter pollution - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104673,Deaths - Child stunting  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104674,Deaths - Child underweight  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104675,Deaths - Child wasting  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104676,Deaths - Household air pollution from solid fuels  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104677,Deaths - Low birth weight for gestation  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104678,Deaths - No access to handwashing facility  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104679,Deaths - Non-exclusive breastfeeding  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104680,Deaths - Secondhand smoke  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104681,Deaths - Short gestation for birth weight  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104682,Deaths - Vitamin A deficiency  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104683,Deaths - Zinc deficiency  - Sex:both - Age:Under-5 (Number),,numeric,\N,9/5/19 10:08,9/5/19 10:08,\N,,,4204,17032,\N,0,\N
+104754,Deaths - Early Neonatal- Sex (Both)- Rate,,numeric,\N,10/1/19 10:39,10/1/19 10:39,\N,,,4219,17047,\N,0,\N
+104756,Deaths- Post Neonatal- Sex (Both)- Rate,,numeric,\N,10/1/19 10:39,10/1/19 10:39,\N,,,4219,17047,\N,0,\N
+104757,Deaths- Early Neonatal- Sex (both)- Number,,numeric,\N,10/1/19 10:39,10/1/19 10:39,\N,,,4219,17047,\N,0,\N
+104758,Deaths- Late Neonatal- Sex (both)- Number,,numeric,\N,10/1/19 10:39,10/1/19 10:39,\N,,,4219,17047,\N,0,\N
+104759,Deaths- Post Neonatal- Sex (both)- Number,,numeric,\N,10/1/19 10:39,10/1/19 10:39,\N,,,4219,17047,\N,0,\N
+104760,Deaths- 1-4 years- Sex (Both) - Number,,numeric,\N,10/1/19 11:28,10/1/19 11:28,\N,,,4219,17047,\N,0,\N
+104761,Deaths- 1-4 years- Sex (Both) - Rate,,numeric,\N,10/1/19 11:28,10/1/19 11:28,\N,,,4219,17047,\N,0,\N
+104762,Deaths- 1-4 years- Sex (Both) - Share of total under 5 deaths (percent),,numeric,\N,10/1/19 12:11,10/1/19 12:11,\N,,,4219,17047,\N,0,\N
+104763,Deaths- Early Neonatal- Sex (both)- Share of total under 5 deaths (percent),,numeric,\N,10/1/19 12:11,10/1/19 12:11,\N,,,4219,17047,\N,0,\N
+104764,Deaths- Late Neonatal- Sex (both)- Share of total under 5 deaths (percent),,numeric,\N,10/1/19 12:11,10/1/19 12:11,\N,,,4219,17047,\N,0,\N
+104765,Deaths- Post Neonatal- Sex (both)- Share of total under 5 deaths (percent),,numeric,\N,10/1/19 12:11,10/1/19 12:11,\N,,,4219,17047,\N,0,\N
+105061,Congenital birth defects - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105063,Diarrheal diseases - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105075,Foreign body - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105082,Lower respiratory infections - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105084,Meningitis - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105086,Neonatal disorders - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105094,Other unspecified infectious diseases - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105099,Sexually transmitted infections excluding HIV - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105101,Sudden infant death syndrome - Age: Late neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105113,Congenital birth defects - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105115,Diarrheal diseases - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105127,Foreign body - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105133,Lower respiratory infections - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105134,Meningitis - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105136,Neonatal disorders - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105144,Other unspecified infectious diseases - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105146,Paralytic ileus and intestinal obstruction - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105149,Sexually transmitted infections excluding HIV - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105151,Tetanus - Age: Early Neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105171,Congenital birth defects - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105177,Diarrheal diseases - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105179,Drowning - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105206,Lower respiratory infections - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105208,Measles - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105209,Meningitis - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105230,Protein-energy malnutrition - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105233,Road injuries - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105245,Whooping cough - Age: 1 to 4,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105258,Congenital birth defects - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105261,Diarrheal diseases - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105278,HIV/AIDS - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105286,Lower respiratory infections - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105289,Meningitis - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105291,Neonatal disorders - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105307,Protein-energy malnutrition - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105312,Sudden infant death syndrome - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105319,Whooping cough - Age: Post neonatal,,numeric,\N,10/8/19 19:31,10/8/19 19:31,\N,,,4226,17054,\N,0,\N
+105359,Estimated incidence (all forms) per 100 000 population (e_inc_100k),,numeric,\N,10/18/19 10:23,10/18/19 10:23,\N,,,4233,17061,\N,0,\N
+105362,Estimated number of incident cases (all forms) (e_inc_num),,numeric,\N,10/18/19 10:23,10/18/19 10:23,\N,,,4233,17061,\N,0,\N
+105371,Estimated mortality of TB cases (all forms) per 100 000 population (e_mort_100k),,numeric,\N,10/18/19 10:23,10/18/19 10:23,\N,,,4233,17061,\N,0,\N
+105374,"Estimated mortality of TB cases (all forms, excluding HIV) per 100 000 population (e_mort_exc_tbhiv_100k)",,numeric,\N,10/18/19 10:23,10/18/19 10:23,\N,,,4233,17061,\N,0,\N
+105551,Cause: Congenital heart anomalies; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105552,Cause: Congenital heart anomalies; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105553,Cause: Congenital musculoskeletal and limb anomalies; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105554,Cause: Congenital musculoskeletal and limb anomalies; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105555,Cause: Digestive congenital anomalies; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105556,Cause: Digestive congenital anomalies; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105557,Cause: Down syndrome; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105558,Cause: Down syndrome; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105559,Cause: Neural tube defects; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105560,Cause: Neural tube defects; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105561,Cause: Orofacial clefts; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105562,Cause: Orofacial clefts; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105563,Cause: Other chromosomal abnormalities; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105564,Cause: Other chromosomal abnormalities; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105565,Cause: Other congenital birth defects; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105566,Cause: Other congenital birth defects; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105567,Cause: Urogenital congenital anomalies; Age: Under 5 (Number),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N
+105568,Cause: Urogenital congenital anomalies; Age: Under 5 (Rate),,numeric,\N,10/21/19 13:06,10/21/19 13:06,\N,,,4235,17063,\N,0,\N

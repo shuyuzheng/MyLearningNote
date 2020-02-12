@@ -30,16 +30,16 @@ A standard dose-response curve is defined by 4 parameters:
 
 ## Models for fitting dose-response curve
 
-### 1. The "Hill equation" (Four-parameter logistic equation, variable slope sigmoid equation)
+### 1. The "Hill equation" (Four-parameter logistic equation, variable slope sigmoid equation) 
 
 $Response = Bottom + \frac{Top - Bottom}{1+\frac{EC_{50}^{HillSlope}}{[Drug]^{HillSlope}}}$
 
 * If define: $X=log10([Drug])$
-The function becomes:
+The function becomes (four-parameter log-logistic 4LL curve):
 $Response=Bottom+\frac{Top-Bottom}{1+10^{(logEC_{50}-X)HillSlope}}$
 
 * If define: X as concentration of drug
-THe function becomes:
+THe function becomes (four-parameter logistic 4L curve):
 $Response=Bottom+\frac{Top-Bottom}{1+10^{(\frac{EC_{50}}{X})HillSlope}}$
 
 ### 2. Five-parameter logistic equation
